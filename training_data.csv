@@ -1,0 +1,1512 @@
+description,component
+"Komputer sering restart tiba-tiba dan muncul layar biru",RAM
+"Komputer tidak bisa booting, hanya muncul layar hitam",Hard Disk
+"Suara bip panjang saat komputer dinyalakan, tidak masuk ke sistem",Motherboard
+"Komputer berjalan sangat lambat dan sering hang",RAM
+"File sering corrupt dan ada suara klik dari hard disk",Hard Disk
+"Komputer tidak mendeteksi perangkat USB",Motherboard
+"Monitor tidak menampilkan gambar meskipun komputer sudah dinyalakan",Graphic Card
+"Komputer overheat setelah beberapa menit penggunaan",Processor
+"Komputer tiba-tiba mati saat menjalankan aplikasi berat",Power Supply
+"Ada bau terbakar dari dalam casing komputer saat dinyalakan",Power Supply
+"Komputer sangat lambat dan aplikasi sering crash",RAM
+"Monitor berkedip-kedip dan menampilkan garis-garis",Graphic Card
+"Komputer tidak bisa membaca hard disk",Hard Disk
+"Komputer sering restart dan ada suara keras dari kipas",Power Supply
+"Tidak ada suara saat komputer dinyalakan",Motherboard
+"Port USB tidak berfungsi meski sudah coba beberapa perangkat",Motherboard
+"Komputer menyala tetapi tidak ada tampilan di monitor",Graphic Card
+"Komputer tiba-tiba mati saat digunakan untuk rendering video",Processor
+"Ada bau terbakar dan asap dari komputer",Power Supply
+"Komputer tidak mendeteksi hard disk pada BIOS",Hard Disk
+"Monitor tidak menyala meskipun komputer sudah dihidupkan",Graphic Card
+"Komputer mengalami overheat saat digunakan dalam waktu lama",Processor
+"Komputer nyala tapi tidak tampil di layar",Graphic Card
+"Komputer saat menjalani game berat langsung mati",Processor
+"Layar muncul seperti kesemutan atau kedap kedip",Graphic Card
+"Komputer tidak bisa menyala meskipun sudah ditekan tombol power",Power Supply
+"Layar komputer sering mati sendiri setelah digunakan beberapa saat",Graphic Card
+"Komputer berjalan sangat lambat saat membuka aplikasi",Processor
+"Saat booting muncul pesan error 'no bootable device found'",Hard Disk
+"Blue screen secara tiba-tiba saat sedang bekerja",RAM
+"USB port tidak mendeteksi perangkat apapun",Motherboard
+"Setelah upgrade RAM, komputer tidak mau menyala",RAM
+"Aplikasi sering crash dan restart secara otomatis",Hard Disk
+"PC tiba-tiba mati terus kalo main game, padahal sebelumnya aman-aman aja",Power Supply
+"Kayaknya RAM-nya deh, soalnya komputernya nge-freeze mulu tiap buka banyak tab",RAM
+"Pas nyalain PC, malah ada suara 'bip' panjang, layarnya tetep gelap",Motherboard
+"Hardisk kayaknya rusak deh, soalnya file-file gue pada hilang dan suka ada suara aneh dari CPU",Hard Disk
+"Udah dicolokin USB-nya tapi gak kebaca sama sekali, udah coba ganti-ganti colokan juga",Motherboard
+"Monitor gak nyala, tapi kipas CPU jalan, kira-kira kenapa ya?",Graphic Card
+"PC gue cepet panas banget kalo dipake render, bisa mati sendiri",Processor
+"Komputer suka restart sendiri tiba-tiba, mungkin karena power supply-nya kali ya",Power Supply
+"Setiap kali nyalain komputer, ada bau kayak kebakar dari casing, serem sih",Power Supply
+"Pas main game berat, komputernya langsung nge-lag parah terus crash",RAM
+"Monitor suka ada garis-garis aneh, terus gambarnya juga jadi buram",Graphic Card
+"Baru upgrade RAM, tapi sekarang PC malah gak nyala, kenapa ya?",RAM
+"USB udah dicolokin tapi gak ke-detect, padahal kemarin masih normal",Motherboard
+"Komputer suka freeze tiap kali buka aplikasi berat, jalannya jadi lambat banget",Processor
+"Komputer suka restart sendiri, terus ada suara kipas kenceng banget",Power Supply
+"Pas nyalain komputer, gak ada suara 'beep' sama sekali, kayak mati total gitu",Motherboard
+"Hardisk gak kebaca pas masuk BIOS, udah restart beberapa kali tetep sama",Hard Disk
+"PC suka ngelag pas dipake nonton film HD, padahal dulu lancar banget",RAM
+"Komputer tiba-tiba mati saat nyoba buka file besar, terus gak bisa nyala lagi",Power Supply
+"Layar suka kedip-kedip pas lagi browsing, udah restart tetep sama",Graphic Card
+"Baru beberapa menit dipake, komputer udah panas banget, CPU fan bunyi kenceng",Processor
+"USB gak ke-detect sama sekali, udah coba beberapa kali tetep gak bisa",Motherboard
+"Komputer kadang mati sendiri waktu baru dinyalain, terus susah nyala lagi",Power Supply
+"PC nge-freeze pas mau transfer file dari hardisk eksternal, terus tiba-tiba mati",Hard Disk
+"Setiap buka aplikasi google youtube dan lainnya, komputer suka lambat banget, nge-lag parah",RAM
+"Monitor gak nyala padahal kabel udah terpasang, cuma CPU yang kedengeran bunyinya",Graphic Card
+"PC overheat terus mati mendadak tiap kali dipake buat rendering video",Processor
+"Ada bau gosong dari power supply waktu komputer dinyalain",Power Supply
+"Komputer gak bisa booting, cuma layar hitam doang yang muncul",Hard Disk
+"Pas nyalain komputer, muncul suara bip panjang, terus gak masuk ke Windows",Motherboard
+"PC tiba-tiba hang terus restart sendiri, sering banget terjadi",RAM
+"Monitor cuma hitam aja, gak ada gambar, padahal PC nyala normal",Graphic Card
+"Komputer gue sering restart tiba-tiba kalau lagi main game, bingung kenapa",Power Supply
+"USB port gak berfungsi, udah coba colokin mouse dan keyboard tapi gak kedetect",Motherboard
+"PC tiba-tiba mati waktu gue lagi transfer file ke hardisk",Hard Disk
+"Layar tiba-tiba kedap kedip pas lagi streaming, padahal sebelumnya gak apa-apa",Graphic Card
+"Komputer suka panas banget meski cuma dipake browsing biasa",Processor
+"Hardisk gak bisa kebaca, jadi gak bisa booting sama sekali",Hard Disk
+"Suara kipas CPU kenceng banget terus PC tiba-tiba mati sendiri",Power Supply
+"Pas buka program desain, PC langsung lambat terus sering nge-freeze",RAM
+"Monitor gak nyala, udah coba ganti kabel tetep gak ada tampilan",Graphic Card
+"PC gue cepet banget overheat, abis dipake beberapa menit langsung panas",Processor
+"Komputer tiba-tiba mati pas lagi download file besar",Power Supply
+"Layar monitor berkedip-kedip terus muncul garis-garis aneh",Graphic Card
+"PC suka mati mendadak kalau dipake buat ngedit video",Processor
+"Ada suara klik dari hardisk terus file gue jadi sering corrupt",Hard Disk
+"Monitor gak nampil apa-apa, tapi kipas CPU nyala normal",Graphic Card
+"Komputer nyala tapi cuma ada layar hitam, gak masuk ke BIOS",Hard Disk
+"Pas mau buka game, PC langsung mati mendadak",Power Supply
+"Komputer lemot banget setiap buka aplikasi berat kayak Photoshop",RAM
+"Monitor gue tiba-tiba buram terus ada garis-garis",Graphic Card
+"PC tiba-tiba mati pas gue lagi bikin video editing",Processor
+"Setiap nyalain komputer ada suara aneh dari hardisk, kayak klik-klik gitu",Hard Disk
+"USB port gak bisa kebaca meski udah coba beberapa device",Motherboard
+"Setiap buka aplikasi berat, komputer suka freeze beberapa detik",Processor
+"Komputer tiba-tiba restart sendiri pas lagi browsing",Power Supply
+"Layar komputer gue jadi blur dan suka ada flicker",Graphic Card
+"Komputer lambat banget setiap buka aplikasi desain, kayak RAM-nya kurang",RAM
+"Monitor gak mau nyala meskipun komputer udah running normal",Graphic Card
+"Setiap buka game berat, komputer langsung mati total",Power Supply
+"PC tiba-tiba mati terus ada suara bip panjang, gak bisa masuk ke Windows",Motherboard
+"Komputer panas banget pas dipake multitasking, terus hang",Processor
+"Hardisk gak kebaca sama sekali waktu booting, muncul error no bootable device",Hard Disk
+"Komputer tiba-tiba mati, terus ada bau terbakar dari power supply",Power Supply
+"USB port belakang komputer gak bisa dipake, semua device gak kedetect",Motherboard
+"Layar monitor jadi kedip-kedip terus muncul garis horizontal",Graphic Card
+"Pas buka banyak tab di browser, komputer langsung nge-lag parah",RAM
+"PC tiba-tiba nge-freeze pas dipake nonton film, padahal sebelumnya lancar banget",RAM
+"Komputer mati mendadak waktu buka aplikasi berat, terus gak bisa nyala",Power Supply
+"Layar sering kedip-kedip waktu dipake browsing, meski udah restart tetap gak berubah",Graphic Card
+"Baru beberapa menit dipake, komputer udah panas banget dan kipas CPU bunyi kenceng",Processor
+"Komputer tiba-tiba mati sendiri waktu baru dinyalain, terus susah banget buat nyalain lagi",Power Supply
+"PC nge-freeze pas transfer file besar dari hard disk eksternal, terus tiba-tiba mati",Hard Disk
+"Setelah di-upgrade RAM, komputer tidak mau booting",RAM
+"Komputer sering freeze ketika membuka aplikasi editing",RAM
+"Suara aneh keluar dari hard disk saat diakses",Hard Disk
+"Komputer mati mendadak saat bermain game online",Power Supply
+"Monitor tidak merespons saat komputer dihidupkan",Graphic Card
+"PC sering restart sendiri tanpa alasan jelas",Motherboard
+"Komputer tidak mendeteksi RAM setelah diinstal ulang",RAM
+"Komputer berjalan lambat ketika terhubung ke internet",Processor
+"Ada suara klik yang mencurigakan dari hard disk",Hard Disk
+"Komputer tidak bisa booting setelah memasang GPU baru",Graphic Card
+"Suara beep pendek saat booting, tidak ada tampilan",Motherboard
+"Monitor hitam meski semua komponen lainnya menyala",Graphic Card
+"Komputer mengeluarkan suara aneh dari power supply",Power Supply
+"Komputer tiba-tiba hang saat melakukan rendering",Processor
+"Setelah restart, BIOS tidak mendeteksi hard disk",Hard Disk
+"Komputer menjadi sangat lambat setelah menginstal aplikasi baru",RAM
+"Port USB depan tidak berfungsi, sudah coba ganti kabel",Motherboard
+"Komputer tidak merespons saat menyalakan aplikasi berat",Processor
+"Monitor berkedip dan tampilan sering hilang",Graphic Card
+"Komputer mati total saat terhubung ke sumber listrik",Power Supply
+"Setelah mengganti hard disk, sistem tidak mau boot",Hard Disk
+"Komputer sering freeze saat bermain game berat",RAM
+"Monitor hanya menampilkan warna hitam setelah dinyalakan",Graphic Card
+"Komputer reboot sendiri saat mendownload file besar",Power Supply
+"Setiap kali menghidupkan, suara beep panjang muncul",Motherboard
+"Hard disk tidak terdeteksi di pengaturan BIOS",Hard Disk
+"Setelah upgrade CPU, komputer sering hang",Processor
+"USB port tidak berfungsi pada semua perangkat yang dicoba",Motherboard
+"PC overheat saat digunakan untuk gaming, menyebabkan shutdown",Processor
+"Komputer berjalan lambat dan sering crash ketika multitasking",RAM
+"Monitor menampilkan garis-garis dan kadang blank",Graphic Card
+"Setiap kali membuka aplikasi berat, PC tiba-tiba mati",Power Supply
+"Setelah mengganti RAM, komputer tetap tidak mau menyala",RAM
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Suara kipas sangat keras dan PC sering mati mendadak",Power Supply
+"Hard disk bergetar lebih dari biasanya saat diakses",Hard Disk
+"Monitor tidak mengeluarkan suara, meskipun komputer menyala",Graphic Card
+"Komputer terkadang tidak merespons saat dinyalakan",Motherboard
+"Setiap kali menjalankan program, komputer sangat lambat",Processor
+"Komputer mengeluarkan bau terbakar saat dinyalakan",Power Supply
+"Setelah upgrade GPU, komputer tidak bisa booting",Graphic Card
+"USB mouse tidak terdeteksi di komputer",Motherboard
+"Komputer freeze saat melakukan streaming video",RAM
+"Monitor mengeluarkan suara dengung saat menyala",Graphic Card
+"PC reboot sendiri saat digunakan untuk gaming",Power Supply
+"Hard disk sering menghasilkan suara aneh saat diakses",Hard Disk
+"Setiap kali dinyalakan, BIOS menunjukkan kesalahan",Motherboard
+"Komputer mati mendadak saat membuka aplikasi besar",Power Supply
+"Monitor tidak memberikan tampilan apapun meski menyala",Graphic Card
+"PC sangat lambat saat melakukan transfer data besar",RAM
+"Komputer tidak merespons setelah dihidupkan, layar tetap hitam",Motherboard
+"Suara bip berulang saat dinyalakan, tidak ada tampilan",Motherboard
+"Komputer overheat dan mati saat menjalankan aplikasi berat",Processor
+"Komputer tidak mau menyala setelah di-upgrade motherboard",Motherboard
+"Monitor berkedip saat dipakai browsing",Graphic Card
+"PC mengalami lag parah saat bermain game ringan",RAM
+"Setelah mengganti power supply, komputer tetap mati mendadak",Power Supply
+"Hard disk tidak dapat dibaca di sistem operasi setelah restart",Hard Disk
+"Komputer sering restart saat membuka beberapa tab",RAM
+"Setiap kali menghidupkan, tampilan monitor kosong",Graphic Card
+"Suara klik dari hard disk semakin sering terjadi",Hard Disk
+"Komputer hang saat melakukan update sistem",Processor
+"Monitor menampilkan gambar buram saat dinyalakan",Graphic Card
+"Setelah upgrade CPU, komputer tidak booting",Motherboard
+"PC sering mati mendadak saat streaming video",Power Supply
+"Komputer freeze ketika membuka aplikasi grafis",RAM
+"Monitor tidak menampilkan gambar setelah dinyalakan",Graphic Card
+"Komputer tidak mendeteksi jaringan setelah restart",Motherboard
+"Suara bising dari kipas yang berputar sangat cepat",Power Supply
+"Komputer berjalan lambat saat menggunakan aplikasi berat",Processor
+"Monitor menampilkan garis-garis saat bermain game",Graphic Card
+"Hard disk berfungsi tidak normal setelah terjatuh",Hard Disk
+"Komputer restart sendiri saat terhubung ke internet",Motherboard
+"Setiap kali dinyalakan, muncul pesan kesalahan sistem",Power Supply
+"Komputer tidak mengenali perangkat USB yang terhubung",Motherboard
+"PC hang saat mendownload file besar dari internet",RAM
+"Monitor kadang blank meski komputer menyala",Graphic Card
+"Suara berisik dari power supply saat dihidupkan",Power Supply
+"Komputer sangat lambat setelah menginstal aplikasi baru",RAM
+"Hard disk tidak terdeteksi di file explorer",Hard Disk
+"Setelah mengganti RAM, komputer masih tidak menyala",RAM
+"PC tiba-tiba mati saat melakukan render video",Power Supply
+"Monitor sering menampilkan gambar kabur saat browsing",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Suara bip pendek saat booting, sistem tidak merespons",Motherboard
+"Komputer menjadi lambat setelah di-upgrade",Processor
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Monitor tidak merespons saat dihidupkan",Graphic Card
+"Komputer mati total saat menggunakan aplikasi desain",Processor
+"Hard disk mengeluarkan suara klik-klik saat diakses",Hard Disk
+"Komputer tidak mau boot setelah mengganti GPU",Graphic Card
+"USB port belakang tidak berfungsi pada semua perangkat",Motherboard
+"Komputer hang saat menjalankan aplikasi video editing",RAM
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sering restart mendadak saat gaming",Power Supply
+"Komputer terlalu panas setelah dipakai beberapa jam",Processor
+"Hard disk sering menunjukkan kesalahan saat diakses",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Setiap kali booting, komputer mengeluarkan suara aneh",Motherboard
+"Komputer restart tiba-tiba setelah update BIOS",Motherboard
+"PC tidak bisa mendeteksi keyboard dan mouse",Motherboard
+"Komputer hang saat membuka file Excel berukuran besar",RAM
+"Suara kipas keras tetapi komputer tidak menyala",Power Supply
+"Monitor menampilkan layar biru setelah beberapa menit digunakan",Graphic Card
+"Komputer mati sendiri saat digunakan untuk presentasi",Power Supply
+"PC tidak merespons setelah instalasi driver baru",Motherboard
+"Komputer menjadi lambat setelah beberapa jam pemakaian",Processor
+"Layar monitor tiba-tiba blank saat streaming video",Graphic Card
+"Komputer tidak bisa menyala setelah melakukan update Windows",Motherboard
+"Komputer mengeluarkan suara bip panjang dan tidak bisa masuk ke BIOS",Motherboard
+"Hard disk sering berhenti bekerja dan komputer hang",Hard Disk
+"PC lambat setiap kali membuka aplikasi desain grafis",RAM
+"Suara klik dari hard disk meningkat saat dipakai transfer file",Hard Disk
+"Komputer restart setelah menginstal update driver GPU",Graphic Card
+"Monitor tidak merespons setelah mengganti kabel",Graphic Card
+"Komputer sering overheat saat menjalankan software 3D",Processor
+"Komputer tidak mengenali hard disk eksternal",Hard Disk
+"Setelah mengganti motherboard, komputer tidak mau booting",Motherboard
+"Layar monitor sering blank saat digunakan bekerja",Graphic Card
+"Komputer terlalu lambat saat melakukan rendering video",Processor
+"Suara kipas sangat keras setelah komputer dinyalakan",Power Supply
+"Setelah upgrade power supply, PC tetap mati mendadak",Power Supply
+"Komputer mati tiba-tiba saat browsing internet",Power Supply
+"Komputer freeze ketika menjalankan program simulasi",RAM
+"Monitor menampilkan artefak setelah komputer menyala",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Komputer restart setelah menyalakan aplikasi editing video",Power Supply
+"Hard disk tidak merespons setelah terhubung ke komputer",Hard Disk
+"Komputer tidak bisa booting setelah memasang RAM baru",RAM
+"Komputer mengeluarkan suara bip berulang kali saat dinyalakan",Motherboard
+"Monitor tidak menampilkan gambar meskipun komputer menyala",Graphic Card
+"Komputer terlalu lambat saat digunakan untuk multitasking",Processor
+"Setelah menginstal Windows, komputer tidak bisa mendeteksi hard disk",Hard Disk
+"Monitor menampilkan layar biru setelah beberapa jam digunakan",Graphic Card
+"Komputer mati mendadak saat browsing di internet",Power Supply
+"Suara kipas sangat keras dan komputer sering restart",Power Supply
+"Komputer tidak menyala setelah memasang power supply baru",Power Supply
+"Komputer hang saat membuka file CAD berukuran besar",RAM
+"Komputer restart setelah menjalankan aplikasi grafis",Power Supply
+"Layar monitor menampilkan garis-garis setelah dihidupkan",Graphic Card
+"Komputer tidak merespons setelah menjalankan program simulasi",RAM
+"Monitor berkedip-kedip saat digunakan untuk bermain game",Graphic Card
+"Komputer restart sendiri setelah menginstal driver motherboard",Motherboard
+"Komputer hang saat melakukan pembaruan sistem",Processor
+"Monitor menampilkan garis-garis saat menghidupkan komputer",Graphic Card
+"PC tiba-tiba restart saat melakukan multitasking",RAM
+"Komputer tidak bisa terhubung ke jaringan setelah di-reset",Motherboard
+"Ada suara berdengung dari power supply saat dinyalakan",Power Supply
+"Komputer berjalan lambat saat menjalankan aplikasi berat",RAM
+"Monitor tidak menampilkan gambar meskipun semua kabel terhubung",Graphic Card
+"Komputer tidak bisa booting setelah mengganti RAM",RAM
+"USB port depan tidak berfungsi setelah diinstal ulang",Motherboard
+"Komputer tidak merespons setelah dinyalakan, layar tetap hitam",Motherboard
+"Setelah ganti CPU, komputer sering hang",Processor
+"Komputer mati mendadak saat membuka aplikasi baru",Power Supply
+"Monitor berkedip setiap kali komputer dihidupkan",Graphic Card
+"Suara bising dari hard disk saat diakses",Hard Disk
+"Komputer tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering freeze saat bermain game berat",RAM
+"Monitor tampak buram saat digunakan untuk browsing",Graphic Card
+"Setiap kali menyalakan komputer, ada suara beep pendek",Motherboard
+"Komputer tidak mau menyala setelah dipindahkan",Power Supply
+"Hard disk tidak terdeteksi di BIOS setelah restart",Hard Disk
+"Komputer lambat saat mengunduh file besar",Processor
+"Monitor tidak merespons saat bermain game",Graphic Card
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Setelah mengganti GPU, tampilan komputer menjadi buram",Graphic Card
+"Suara bip panjang muncul saat booting, layar tetap hitam",Motherboard
+"Komputer tidak bisa memuat sistem operasi setelah update",Hard Disk
+"Monitor tiba-tiba gelap saat digunakan untuk gaming",Graphic Card
+"PC hang saat memindahkan file ke hard disk eksternal",Hard Disk
+"Komputer mengeluarkan suara klik saat dinyalakan",Hard Disk
+"Komputer tidak bisa terhubung ke Wi-Fi setelah di-reset",Motherboard
+"Monitor berkedip saat menjalankan aplikasi grafis",Graphic Card
+"Komputer tidak mengenali perangkat USB setelah restart",Motherboard
+"PC sering mati mendadak saat digunakan untuk rendering video",Processor
+"Setiap kali dinyalakan, komputer mengeluarkan suara aneh",Motherboard
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar setelah ganti GPU",Graphic Card
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Setiap kali menjalankan program, komputer sangat lambat",Processor
+"Monitor hitam meski semua komponen lainnya menyala",Graphic Card
+"PC terlalu panas setelah dipakai beberapa jam",Processor
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Suara bip berulang saat dinyalakan, tidak ada tampilan",Motherboard
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor tidak menampilkan gambar meskipun komputer dihidupkan",Graphic Card
+"Komputer berjalan lambat saat membuka aplikasi berat",RAM
+"USB port belakang tidak berfungsi pada semua perangkat yang dicoba",Motherboard
+"Komputer hang saat bermain game berat",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer tiba-tiba mati saat digunakan untuk streaming",Power Supply
+"Setelah mengganti hard disk, sistem tidak mau boot",Hard Disk
+"Komputer freeze saat mengunduh file besar",RAM
+"Monitor tidak memberikan tampilan apapun meski menyala",Graphic Card
+"PC sangat lambat saat memindahkan data dari USB",RAM
+"Komputer tidak mendeteksi RAM baru setelah upgrade",RAM
+"Komputer mengeluarkan suara klik saat booting",Hard Disk
+"Setiap kali dinyalakan, komputer mengeluarkan suara beep",Motherboard
+"Komputer hang saat menjalankan program desain",RAM
+"Monitor menunjukkan warna yang salah setelah dinyalakan",Graphic Card
+"Komputer reboot sendiri saat menginstal aplikasi baru",Power Supply
+"Monitor tidak berfungsi setelah dihidupkan",Graphic Card
+"Komputer tidak bisa terhubung ke internet setelah restart",Motherboard
+"PC mati mendadak saat bermain game online",Power Supply
+"Setiap kali booting, komputer menunjukkan kesalahan BIOS",Motherboard
+"Komputer hang saat membuka beberapa tab di browser",RAM
+"Monitor tidak merespons saat dipakai untuk browsing",Graphic Card
+"Komputer mati total saat memindahkan file besar",Power Supply
+"Setelah upgrade RAM, komputer tidak mau booting",RAM
+"Komputer tidak mendeteksi hard disk eksternal",Hard Disk
+"Monitor sering berkedip saat digunakan untuk menonton film",Graphic Card
+"PC hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mau menyala meskipun sudah dicoba beberapa kali",Power Supply
+"Hard disk tidak terdeteksi setelah restart",Hard Disk
+"Monitor hitam meski semua kabel terhubung",Graphic Card
+"Komputer sering restart saat memutar video",RAM
+"Komputer freeze saat melakukan streaming video",RAM
+"Monitor tidak menampilkan gambar setelah menghidupkan komputer",Graphic Card
+"PC tidak mengenali GPU baru yang dipasang",Graphic Card
+"Komputer mati mendadak saat melakukan multitasking",Power Supply
+"Monitor berkedip setiap kali memutar video",Graphic Card
+"Komputer tidak dapat memuat sistem operasi setelah penginstalan",Hard Disk
+"PC hang saat membuka aplikasi grafis",RAM
+"Setiap kali dinyalakan, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor tidak memberikan tampilan setelah dinyalakan",Graphic Card
+"Komputer berjalan lambat saat membuka banyak tab di browser",RAM
+"PC mati mendadak saat digunakan untuk bermain game",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer tidak mengenali hard disk setelah upgrade",Hard Disk
+"Komputer sering freeze saat menonton film",RAM
+"Monitor tidak memberikan tampilan apapun meski komputer menyala",Graphic Card
+"Komputer hang saat mencoba memutar video besar",RAM
+"PC reboot sendiri saat membuka aplikasi baru",Power Supply
+"Setiap kali booting, tampilan monitor kosong",Graphic Card
+"Komputer lambat saat mengunduh file besar",Processor
+"Monitor tidak menunjukkan gambar setelah ganti GPU",Graphic Card
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Komputer sering restart saat menggunakan aplikasi berat",RAM
+"Monitor tidak berfungsi saat komputer dihidupkan",Graphic Card
+"Komputer hang saat melakukan streaming video",RAM
+"Setiap kali dinyalakan, suara beep panjang muncul",Motherboard
+"Komputer mati mendadak saat menggunakan aplikasi desain",Processor
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer tidak terhubung ke Wi-Fi setelah di-reset",Motherboard
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file ke hard disk eksternal",Power Supply
+"Komputer mengeluarkan suara klik-klik dari hard disk",Hard Disk
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat membuka aplikasi berat",RAM
+"Komputer sering restart saat streaming video",Power Supply
+"Komputer tidak mengenali hard disk setelah di-upgrade",Hard Disk
+"Komputer tidak bisa terhubung ke jaringan setelah restart",Motherboard
+"Monitor tidak memberikan tampilan meski komputer sudah dihidupkan",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Setiap kali booting, ada suara beep pendek",Motherboard
+"Komputer tidak terhubung ke Wi-Fi setelah upgrade",Motherboard
+"Monitor menampilkan gambar buram saat browsing",Graphic Card
+"Komputer sering reboot sendiri saat multitasking",Power Supply
+"Monitor tidak menampilkan gambar setelah dinyalakan",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"PC tidak mengenali hard disk baru setelah diinstal",Hard Disk
+"Monitor tidak memberikan tampilan setelah dihidupkan",Graphic Card
+"Komputer mati mendadak saat digunakan untuk multitasking",Power Supply
+"Monitor hitam meski semua komponen menyala normal",Graphic Card
+"Komputer hang saat mengunduh file besar",RAM
+"Komputer tidak bisa booting setelah mengganti motherboard",Motherboard
+"Monitor menampilkan warna yang salah saat dipakai untuk browsing",Graphic Card
+"PC mati mendadak saat bermain game online",Power Supply
+"Hard disk mengeluarkan suara berisik saat diakses",Hard Disk
+"Komputer sering restart saat menonton film",RAM
+"Monitor tidak menampilkan gambar saat digunakan untuk browsing",Graphic Card
+"Komputer hang saat membuka banyak tab di browser",RAM
+"Setiap kali booting, ada suara beep panjang",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor menunjukkan gambar buram saat digunakan",Graphic Card
+"Komputer mati mendadak saat memindahkan file besar",Power Supply
+"PC sangat lambat saat melakukan transfer data",RAM
+"Monitor tidak memberikan tampilan meski komputer menyala",Graphic Card
+"Komputer tidak bisa booting setelah install ulang OS",Hard Disk
+"Setelah upgrade CPU, komputer tidak mau menyala",Motherboard
+"Komputer tidak mendeteksi perangkat USB setelah restart",Motherboard
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Monitor menunjukkan gambar buram saat browsing",Graphic Card
+"Komputer mati mendadak saat melakukan streaming video",Power Supply
+"Komputer mengeluarkan suara berisik saat booting",Motherboard
+"Hard disk tidak terdeteksi di sistem operasi setelah restart",Hard Disk
+"PC sering mati mendadak saat bermain game online",Power Supply
+"Monitor tidak menampilkan gambar saat dipakai untuk browsing",Graphic Card
+"Komputer tidak bisa booting setelah upgrade CPU",Motherboard
+"Setiap kali menjalankan aplikasi berat, komputer sering freeze",RAM
+"Komputer lambat saat melakukan streaming video",Processor
+"Monitor menunjukkan garis-garis saat bermain game",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali USB drive setelah dihubungkan",Motherboard
+"Monitor tidak memberikan tampilan saat komputer dinyalakan",Graphic Card
+"PC sering mati mendadak saat browsing",Power Supply
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer tidak bisa booting setelah ganti motherboard",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-upgrade",Motherboard
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer sering restart saat menggunakan aplikasi grafis",RAM
+"Komputer tidak bisa terhubung ke Wi-Fi setelah restart",Motherboard
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer tidak bisa booting setelah mengganti hard disk",Hard Disk
+"Monitor menunjukkan garis-garis saat menonton film",Graphic Card
+"Komputer freeze saat mengunduh file besar",RAM
+"PC tidak mengenali GPU baru setelah diinstal",Graphic Card
+"Komputer mati mendadak saat digunakan untuk browsing",Power Supply
+"Monitor tidak menampilkan gambar saat digunakan untuk menonton video",Graphic Card
+"Komputer hang saat menjalankan aplikasi editing",RAM
+"Setelah mengganti motherboard, komputer tidak mau menyala",Motherboard
+"Komputer tidak terhubung ke jaringan setelah di-reset",Motherboard
+"Monitor berkedip setiap kali komputer dinyalakan",Graphic Card
+"Komputer hang saat menggunakan aplikasi desain",RAM
+"Monitor menampilkan garis-garis aneh saat dihidupkan",Graphic Card
+"Komputer mati mendadak saat memutar video",Power Supply
+"PC tidak mengenali hard disk eksternal yang terhubung",Hard Disk
+"Komputer sering reboot sendiri saat streaming video",Power Supply
+"Komputer hang saat menginstal aplikasi baru",RAM
+"Monitor tidak memberikan tampilan meskipun komputer menyala",Graphic Card
+"Komputer sering restart sendiri saat menggunakan internet",RAM
+"Monitor menunjukkan warna yang salah saat digunakan",Graphic Card
+"PC sering mati mendadak saat bermain game",Power Supply
+"Komputer tidak bisa booting setelah install ulang sistem operasi",Hard Disk
+"Monitor hitam meski semua komponen menyala",Graphic Card
+"Komputer hang saat mengubah pengaturan di BIOS",Motherboard
+"Komputer tidak mengenali RAM baru setelah upgrade",RAM
+"Komputer tidak bisa terhubung ke internet setelah di-upgrade",Motherboard
+"Monitor berkedip saat bermain game",Graphic Card
+"Komputer tidak bisa booting setelah upgrade hard disk",Hard Disk
+"Monitor tidak menampilkan gambar saat dinyalakan",Graphic Card
+"PC sangat lambat saat membuka aplikasi desain grafis",RAM
+"Setiap kali dinyalakan, ada suara beep berulang",Motherboard
+"Komputer sering mati mendadak saat streaming",Power Supply
+"Komputer tidak terhubung ke Wi-Fi setelah restart",Motherboard
+"Komputer tidak bisa booting setelah mengganti GPU",Graphic Card
+"Monitor menunjukkan garis-garis saat digunakan untuk menonton video",Graphic Card
+"Komputer sering freeze saat menggunakan aplikasi berat",RAM
+"Komputer tiba-tiba restart sendiri saat sedang bermain game",Power Supply
+"Setelah update driver, monitor tidak menampilkan gambar",Graphic Card
+"Komputer sering freeze saat menjalankan banyak program sekaligus",RAM
+"BIOS menampilkan pesan error dan tidak bisa masuk ke sistem",Motherboard
+"Prosesor overheating meskipun sudah menggunakan kipas pendingin",Processor
+"Hard disk tidak terbaca meskipun sudah dipindahkan ke slot lain",Hard Disk
+"Komputer mengeluarkan suara bising dari power supply",Power Supply
+"Setelah menambah RAM, komputer tidak mau menyala",RAM
+"Monitor menampilkan artefak saat rendering video",Graphic Card
+"USB belakang tidak mendeteksi perangkat eksternal",Motherboard
+"Komputer hang saat menjalankan aplikasi berat dalam waktu lama",Processor
+"Hard disk sering gagal dalam membaca data",Hard Disk
+"Komputer tiba-tiba mati saat menjalankan aplikasi grafis tinggi",Power Supply
+"Setelah diinstal ulang, komputer menjadi sangat lambat",RAM
+"Monitor kehilangan sinyal secara acak",Graphic Card
+"Motherboard mengeluarkan bunyi beep berulang kali saat dinyalakan",Motherboard
+"Komputer tidak bisa mendeteksi RAM yang baru dipasang",RAM
+"Hard disk mengeluarkan suara aneh dan data tidak terbaca",Hard Disk
+"Komputer sering mati tanpa peringatan setelah beberapa jam digunakan",Power Supply
+"Monitor menunjukkan garis vertikal saat menampilkan gambar",Graphic Card
+"Prosesor cepat panas saat digunakan untuk rendering video",Processor
+"Komputer tidak merespons saat membuka program berat",Processor
+"Prosesor sering overheat saat digunakan untuk bermain game",Processor
+"Performa prosesor menurun setelah beberapa menit penggunaan",Processor
+"Fan CPU berputar kencang namun prosesor tetap overheat",Processor
+"Komputer crash saat membuka aplikasi grafis",Processor
+"Prosesor tidak mendeteksi dengan benar saat di BIOS",Processor
+"CPU usage mencapai 100% meskipun hanya membuka satu aplikasi",Processor
+"Komputer melambat saat menjalankan aplikasi editing video",Processor
+"Prosesor cepat sekali panas bahkan dengan cooling system",Processor
+"Prosesor stuck di clock speed rendah setelah di-update",Processor
+"Saat multitasking, komputer sering freeze atau hang",Processor
+"Prosesor tidak bekerja optimal setelah overclocking",Processor
+"Komputer restart sendiri saat CPU mencapai 80 derajat",Processor
+"Prosesor tidak bekerja saat booting, hanya ada suara beep",Processor
+"Komputer melambat saat menjalankan beberapa aplikasi secara bersamaan",Processor
+"Prosesor sering mengalami throttling meski beban kerja rendah",Processor
+"CPU fan tidak berputar meski prosesor overheat",Processor
+"Setelah update BIOS, prosesor sering tidak responsif",Processor
+"Prosesor berfungsi lambat meski indikator CPU rendah",Processor
+"Prosesor tidak kompatibel dengan motherboard baru",Processor
+"Komputer mati sendiri saat suhu CPU naik",Processor
+"Prosesor gagal mendeteksi semua core",Processor
+"Komputer hanya booting setelah beberapa kali restart",Processor
+"Prosesor tidak bekerja optimal saat menjalankan game",Processor
+"Saat rendering, komputer tiba-tiba hang",Processor
+"Komputer freeze saat membuka aplikasi desain",Processor
+"Prosesor tidak bisa mempertahankan suhu stabil",Processor
+"Fan CPU berputar kencang, tapi suhu prosesor tetap tinggi",Processor
+"Prosesor bekerja lambat meskipun tidak ada banyak aplikasi",Processor
+"Komputer lag setiap kali membuka program berat",Processor
+"Prosesor tiba-tiba overheat saat membuka aplikasi sederhana",Processor
+"Komputer tiba-tiba hang saat menjalankan beberapa aplikasi",Processor
+"Prosesor tidak kompatibel dengan driver terbaru",Processor
+"Komputer tiba-tiba mati setelah suhu prosesor mencapai batas",Processor
+"Prosesor sering tidak terdeteksi saat booting",Processor
+"Komputer terlalu lama booting karena prosesor",Processor
+"Prosesor selalu mencapai suhu tinggi meskipun baru digunakan",Processor
+"Komputer freeze ketika CPU mencapai 100%",Processor
+"Prosesor tidak merespons saat membuka banyak program",Processor
+"Komputer lambat saat membuka browser",Processor
+"Prosesor sering mengalami throttling tanpa sebab",Processor
+"Komputer restart tiba-tiba saat CPU digunakan penuh",Processor
+"Prosesor melambat saat multitasking",Processor
+"Prosesor berfungsi sangat lambat setelah melakukan update",Processor
+"Komputer tiba-tiba hang saat menjalankan aplikasi coding",Processor
+"CPU fan tidak berjalan meski suhu prosesor naik",Processor
+"Prosesor berhenti merespons saat menjalankan aplikasi berat",Processor
+"Setelah update BIOS, prosesor tidak terdeteksi",Processor
+"Prosesor melambat saat membuka software video editing",Processor
+"Komputer selalu hang saat menjalankan game",Processor
+"Prosesor cepat panas bahkan saat idle",Processor
+"Komputer lambat setelah prosesor dipasang",Processor
+"Prosesor terlalu panas saat digunakan untuk komputasi berat",Processor
+"Komputer mati sendiri saat prosesor mencapai batas suhu",Processor
+"Prosesor berhenti merespons saat menjalankan aplikasi simulasi",Processor
+"Prosesor tidak merespons setelah di-overclock",Processor
+"Komputer lambat setiap kali membuka aplikasi grafis",Processor
+"Hard disk tiba-tiba tidak terdeteksi di BIOS",Hard Disk
+"Komputer tidak bisa boot karena hard disk tidak terdeteksi",Hard Disk
+"Hard disk mengeluarkan suara klik berulang saat diakses",Hard Disk
+"Hard disk gagal melakukan proses booting dengan normal",Hard Disk
+"Setelah restart, hard disk tidak terbaca sama sekali",Hard Disk
+"Hard disk sering mengalami corrupt data",Hard Disk
+"Hard disk melambat saat menyalin file berukuran besar",Hard Disk
+"Hard disk mengeluarkan suara aneh saat diakses",Hard Disk
+"Komputer sering crash saat mencoba mengakses hard disk",Hard Disk
+"Hard disk sering freeze saat digunakan",Hard Disk
+"Hard disk tidak terbaca setelah komputer dinyalakan",Hard Disk
+"Komputer sering hang saat mengakses file di hard disk",Hard Disk
+"Hard disk mengeluarkan suara keras saat digunakan",Hard Disk
+"Hard disk tidak bisa menulis data dengan benar",Hard Disk
+"Komputer gagal boot karena hard disk corrupt",Hard Disk
+"Hard disk tidak merespons saat menyalin file besar",Hard Disk
+"Setelah restart, data di hard disk tidak bisa diakses",Hard Disk
+"Hard disk tiba-tiba menghilang dari sistem operasi",Hard Disk
+"Hard disk mengeluarkan bunyi bising terus menerus",Hard Disk
+"Hard disk corrupt setelah komputer crash",Hard Disk
+"Komputer sering freeze saat mengakses hard disk",Hard Disk
+"Hard disk tidak bisa terbaca setelah komputer restart",Hard Disk
+"Data di hard disk tidak bisa dibaca oleh sistem",Hard Disk
+"Hard disk tiba-tiba mengeluarkan suara klik terus menerus",Hard Disk
+"Komputer tidak bisa mendeteksi hard disk baru",Hard Disk
+"Hard disk gagal menulis data dengan benar",Hard Disk
+"Hard disk mengeluarkan suara mendengung saat digunakan",Hard Disk
+"Komputer crash saat membuka file dari hard disk",Hard Disk
+"Hard disk tidak bisa diakses setelah crash mendadak",Hard Disk
+"Komputer sering hang saat booting dari hard disk",Hard Disk
+"komputer saya overheat.",Fan Cooler
+"kipas di prosesor saya mati.",Fan Cooler
+"komputer menjadi panas saat digunakan.",Fan Cooler
+"kipas CPU tidak berputar.",Fan Cooler
+"suara kipas komputer sangat bising.",Fan Cooler
+"komputer mati mendadak setelah beberapa waktu.",Fan Cooler
+"kipas casing berhenti berfungsi.",Fan Cooler
+"komputer terlalu panas saat bermain game.",Fan Cooler
+"kipas laptop berhenti bekerja.",Fan Cooler
+"komputer terlalu panas meskipun hanya digunakan untuk browsing.",Fan Cooler
+"kipas CPU sangat lambat berputar.",Fan Cooler
+"komputer saya cepat panas walau tidak melakukan aktivitas berat.",Fan Cooler
+"kipas pendingin CPU rusak.",Fan Cooler
+"komputer terasa panas meski ruangan dingin.",Fan Cooler
+"kipas komputer mengeluarkan suara aneh.",Fan Cooler
+"kipas prosesor tidak bekerja saat booting.",Fan Cooler
+"komputer cepat panas walau baru dinyalakan.",Fan Cooler
+"suara kipas terdengar sangat keras.",Fan Cooler
+"komputer mati karena overheat.",Fan Cooler
+"komputer saya selalu overheat saat digunakan.",Fan Cooler
+"kipas CPU tidak berfungsi dengan baik.",Fan Cooler
+"kipas laptop tidak berputar sama sekali.",Fan Cooler
+"komputer terlalu panas ketika digunakan untuk render video.",Fan Cooler
+"kipas casing tidak bekerja.",Fan Cooler
+"komputer mati setelah kipas berhenti.",Fan Cooler
+"suara kipas sangat bising saat komputer bekerja keras.",Fan Cooler
+"kipas prosesor tidak menyala.",Fan Cooler
+"komputer saya cepat panas walau tidak bermain game.",Fan Cooler
+"kipas tidak bekerja dengan baik, menyebabkan komputer overheat.",Fan Cooler
+"komputer sering mati karena panas berlebih.",Fan Cooler
+"komputer cepat panas, bahkan saat hanya menonton video.",Fan Cooler
+"kipas prosesor berputar lambat.",Fan Cooler
+"komputer panas setelah kipas berhenti.",Fan Cooler
+"suara kipas semakin keras saat komputer dipakai.",Fan Cooler
+"kipas CPU tidak bekerja setelah komputer dinyalakan.",Fan Cooler
+"komputer sering mengalami overheat karena kipas tidak bekerja.",Fan Cooler
+"suara kipas semakin bising saat digunakan untuk gaming.",Fan Cooler
+"kipas komputer berhenti bekerja.",Fan Cooler
+"komputer terlalu panas bahkan saat idle.",Fan Cooler
+"kipas casing sangat lambat.",Fan Cooler
+"komputer tiba-tiba mati karena kipas tidak berfungsi.",Fan Cooler
+"kipas CPU rusak menyebabkan komputer overheat.",Fan Cooler
+"suara kipas sangat keras dan bising.",Fan Cooler
+"komputer cepat panas meskipun kipas sudah dibersihkan.",Fan Cooler
+"kipas prosesor rusak menyebabkan komputer panas.",Fan Cooler
+"suara kipas semakin keras seiring dengan penggunaan komputer.",Fan Cooler
+"kipas CPU mati saat komputer menyala.",Fan Cooler
+"komputer sering mati karena suhu terlalu tinggi.",Fan Cooler
+"komputer overheat saat digunakan untuk mengedit video.",Fan Cooler
+"kipas komputer tidak berjalan.",Fan Cooler
+"komputer terlalu panas meski hanya browsing internet.",Fan Cooler
+"suara kipas semakin keras saat menjalankan program berat.",Fan Cooler
+"kipas laptop tidak menyala saat komputer dihidupkan.",Fan Cooler
+"komputer mati setelah kipas berhenti bekerja.",Fan Cooler
+"komputer terasa panas dan kipas tidak berfungsi.",Fan Cooler
+"suara kipas semakin bising saat komputer menyala.",Fan Cooler
+"kipas prosesor lambat berputar.",Fan Cooler
+"komputer saya overheat setelah beberapa menit penggunaan.",Fan Cooler
+"kipas komputer tidak bekerja dengan baik.",Fan Cooler
+"suara kipas sangat bising saat komputer digunakan untuk bekerja berat.",Fan Cooler
+"kipas CPU tidak berputar dengan kecepatan yang seharusnya.",Fan Cooler
+"komputer cepat panas karena kipas rusak.",Fan Cooler
+"suara kipas terdengar seperti gesekan.",Fan Cooler
+"kipas laptop lambat berputar.",Fan Cooler
+"komputer mati tiba-tiba setelah kipas berhenti berputar.",Fan Cooler
+"komputer saya sangat cepat panas meskipun baru dinyalakan.",Fan Cooler
+"kipas prosesor tidak bekerja dengan baik.",Fan Cooler
+"komputer terlalu panas setelah beberapa jam penggunaan.",Fan Cooler
+"suara kipas terdengar keras dan aneh.",Fan Cooler
+"kipas CPU tidak berfungsi, menyebabkan komputer terlalu panas.",Fan Cooler
+"komputer mati setelah kipas berhenti berfungsi.",Fan Cooler
+"komputer cepat panas saat digunakan untuk bermain game.",Fan Cooler
+"kipas laptop tidak berputar sama sekali.",Fan Cooler
+"komputer overheat saat menjalankan aplikasi berat.",Fan Cooler
+"komputer tiba-tiba mati karena kipas terlalu lambat.",Fan Cooler
+"suara kipas sangat kencang saat startup.",Fan Cooler
+"komputer terlalu panas meski baru dinyalakan sebentar.",Fan Cooler
+"kipas CPU tidak menyala setelah membersihkan debu.",Fan Cooler
+"komputer mengalami overheat saat rendering video.",Fan Cooler
+"kipas pendingin laptop tidak berfungsi sama sekali.",Fan Cooler
+"komputer cepat panas walau suhu ruangan dingin.",Fan Cooler
+"suara kipas komputer sangat berisik saat digunakan.",Fan Cooler
+"komputer mati karena kipas tidak berjalan dengan baik.",Fan Cooler
+"kipas casing tidak berputar setelah beberapa jam.",Fan Cooler
+"komputer tiba-tiba mati saat kipas tidak berfungsi.",Fan Cooler
+"suara kipas laptop semakin keras saat bermain game.",Fan Cooler
+"kipas CPU berhenti berputar saat komputer panas.",Fan Cooler
+"komputer terasa panas meskipun kipas sudah menyala.",Fan Cooler
+"komputer terlalu panas ketika menjalankan aplikasi berat.",Fan Cooler
+"suara kipas semakin bising setiap kali saya menggunakan komputer.",Fan Cooler
+"kipas komputer tidak bekerja setelah pemakaian lama.",Fan Cooler
+"komputer sering mati mendadak karena panas berlebih.",Fan Cooler
+"suara kipas sangat pelan, hampir tidak terdengar.",Fan Cooler
+"kipas laptop mati saat digunakan untuk waktu lama.",Fan Cooler
+"motherboard tidak bisa mendeteksi hard drive.",Motherboard
+"komputer saya tidak mau menyala, hanya lampu indikator menyala.",Motherboard
+"motherboard saya mengalami korsleting.",Motherboard
+"komputer tidak bisa booting, mungkin masalah di motherboard.",Motherboard
+"port USB di motherboard tidak berfungsi.",Motherboard
+"motherboard tidak mengeluarkan suara beep saat dinyalakan.",Motherboard
+"slot RAM di motherboard tidak berfungsi.",Motherboard
+"komputer sering hang, mungkin karena motherboard bermasalah.",Motherboard
+"komputer tidak bisa menyala setelah mengganti motherboard.",Motherboard
+"komputer tiba-tiba mati, sepertinya motherboard rusak.",Motherboard
+"motherboard tidak dapat mendeteksi VGA card.",Motherboard
+"laptop tidak mau menyala, motherboard rusak.",Motherboard
+"komputer tidak dapat booting, motherboard tidak terdeteksi.",Motherboard
+"suara beep terus-menerus setelah motherboard dinyalakan.",Motherboard
+"motherboard tidak mengeluarkan sinyal ke monitor.",Motherboard
+"motherboard laptop saya rusak setelah terkena air.",Motherboard
+"motherboard tidak dapat mengeluarkan suara beep saat ada masalah.",Motherboard
+"komputer freeze di tengah penggunaan, motherboard bermasalah.",Motherboard
+"komputer restart terus-menerus, masalah di motherboard.",Motherboard
+"slot PCIe di motherboard rusak.",Motherboard
+"komputer saya sering hang, mungkin RAM bermasalah.",RAM
+"komputer saya restart terus-menerus, RAM mungkin rusak.",RAM
+"komputer tidak menyala setelah saya mengganti RAM.",RAM
+"komputer sering blue screen, mungkin masalah RAM.",RAM
+"RAM tidak terdeteksi oleh sistem.",RAM
+"komputer sering restart tiba-tiba, mungkin karena RAM bermasalah.",RAM
+"komputer menjadi sangat lambat setelah saya menambah RAM.",RAM
+"komputer tidak bisa booting setelah saya memasang RAM baru.",RAM
+"slot RAM di motherboard tidak dapat mendeteksi RAM.",RAM
+"komputer tidak menyala setelah saya meng-upgrade RAM.",RAM
+"RAM mengeluarkan suara beep terus-menerus.",RAM
+"komputer tidak bisa booting, RAM rusak.",RAM
+"komputer sering crash saat menjalankan aplikasi berat.",RAM
+"komputer tidak stabil setelah saya menambah RAM.",RAM
+"RAM tidak kompatibel dengan motherboard.",RAM
+"komputer lambat setelah RAM baru dipasang.",RAM
+"RAM tidak terdeteksi setelah dipasang di slot yang berbeda.",RAM
+"komputer menjadi sangat lambat saat multitasking, mungkin karena RAM.",RAM
+"komputer tidak bisa membaca seluruh kapasitas RAM yang terpasang.",RAM
+"komputer sering hang setelah RAM ditambahkan.",RAM
+"RAM saya rusak, menyebabkan komputer sering restart.",RAM
+"komputer sering freeze saat menjalankan aplikasi, masalah RAM.",RAM
+"RAM tidak terbaca setelah dipindahkan ke slot lain.",RAM
+"komputer saya lambat sekali, RAM mungkin perlu diganti.",RAM
+"komputer mati setelah beberapa menit, mungkin RAM bermasalah.",RAM
+"RAM laptop saya rusak setelah upgrade.",RAM
+"komputer sering restart sendiri saat menjalankan program besar.",RAM
+"RAM saya tidak terdeteksi setelah dibersihkan.",RAM
+"komputer tidak bisa menyala setelah menambah RAM baru.",RAM
+"komputer menjadi lambat setelah upgrade RAM.",RAM
+"komputer saya tiba-tiba mati total.",Power Supply
+"power supply mengeluarkan suara berdengung.",Power Supply
+"komputer tidak menyala setelah saya mengganti power supply.",Power Supply
+"power supply sering overheat.",Power Supply
+"komputer sering restart sendiri, mungkin karena power supply.",Power Supply
+"suara kipas di power supply sangat bising.",Power Supply
+"power supply tidak mengirimkan daya ke motherboard.",Power Supply
+"lampu indikator power supply berkedip terus.",Power Supply
+"komputer mati mendadak saat digunakan untuk waktu lama.",Power Supply
+"power supply laptop saya tidak mengisi daya.",Power Supply
+"power supply mengeluarkan bau terbakar.",Power Supply
+"komputer tidak menyala setelah listrik mati.",Power Supply
+"power supply tidak bisa mengalirkan listrik dengan stabil.",Power Supply
+"kipas di power supply berhenti berputar.",Power Supply
+"komputer hanya menyala sebentar, lalu mati.",Power Supply
+"power supply tidak berfungsi setelah listrik turun.",Power Supply
+"komputer tidak bisa booting, power supply rusak.",Power Supply
+"lampu power supply tidak menyala sama sekali.",Power Supply
+"komputer sering tiba-tiba mati, masalah power supply.",Power Supply
+"power supply mengeluarkan suara keras.",Power Supply
+"komputer mati setelah beberapa menit, power supply overheat.",Power Supply
+"power supply tidak bisa memberikan daya ke perangkat lain.",Power Supply
+"komputer tidak dapat dihidupkan setelah power supply diganti.",Power Supply
+"power supply sering menyebabkan komputer hang.",Power Supply
+"power supply terlalu panas dan mengeluarkan suara.",Power Supply
+"komputer tidak menyala setelah power supply terkena air.",Power Supply
+"power supply tidak bisa mengirimkan daya ke GPU.",Power Supply
+"komputer saya tidak mau nyala, hanya lampu power yang menyala.",Power Supply
+"power supply mengeluarkan suara keras seperti kipas rusak.",Power Supply
+"power supply sering menyebabkan komputer restart sendiri.",Power Supply
+"hard disk saya mengeluarkan suara klik-klik.",Hard Disk
+"komputer tidak bisa mendeteksi hard disk.",Hard Disk
+"hard disk saya sangat lambat saat membuka file.",Hard Disk
+"komputer sering freeze saat hard disk bekerja.",Hard Disk
+"data di hard disk tiba-tiba hilang.",Hard Disk
+"hard disk tidak terbaca oleh sistem.",Hard Disk
+"hard disk eksternal tidak bisa diakses.",Hard Disk
+"komputer saya sering hang saat hard disk sedang digunakan.",Hard Disk
+"hard disk mengeluarkan suara berisik saat berputar.",Hard Disk
+"komputer tidak bisa booting karena hard disk tidak terdeteksi.",Hard Disk
+"hard disk saya penuh, tapi saya tidak menyimpan banyak data.",Hard Disk
+"kecepatan transfer data di hard disk sangat lambat.",Hard Disk
+"komputer tidak mau menyala setelah saya pasang hard disk baru.",Hard Disk
+"file di hard disk tidak bisa diakses, sepertinya corrupt.",Hard Disk
+"hard disk saya terlalu lambat saat menyalin file.",Hard Disk
+"komputer sering restart sendiri karena hard disk bermasalah.",Hard Disk
+"hard disk eksternal terputus sendiri saat digunakan.",Hard Disk
+"hard disk tidak bisa di format, selalu gagal.",Hard Disk
+"hard disk mengeluarkan suara aneh seperti gesekan.",Hard Disk
+"komputer tidak bisa membaca hard disk setelah dipindahkan.",Hard Disk
+"komputer sering restart, mungkin masalah di motherboard.",Motherboard
+"port HDMI di motherboard tidak berfungsi.",Motherboard
+"motherboard tidak bisa mendeteksi perangkat USB.",Motherboard
+"komputer tidak mengeluarkan suara beep saat dinyalakan.",Motherboard
+"motherboard tidak mengenali SSD yang terpasang.",Motherboard
+"komputer tidak menyala setelah saya mengganti baterai CMOS di motherboard.",Motherboard
+"komputer saya tiba-tiba mati, mungkin motherboard bermasalah.",Motherboard
+"motherboard mengalami korsleting setelah terkena air.",Motherboard
+"komputer tidak bisa booting, motherboard rusak.",Motherboard
+"slot RAM di motherboard tidak bisa membaca RAM baru.",Motherboard
+"komputer saya lemot, mungkin prosesor sudah tua.",Processor
+"komputer sering panas saat prosesor bekerja berat.",Processor
+"prosesor tidak terdeteksi oleh motherboard.",Processor
+"komputer sering hang saat menjalankan program berat, mungkin prosesor bermasalah.",Processor
+"prosesor saya overheat saat digunakan untuk render video.",Processor
+"komputer sering mati mendadak, masalah pada prosesor.",Processor
+"prosesor tidak bekerja dengan baik setelah komputer overheat.",Processor
+"komputer tidak menyala setelah saya mengganti prosesor.",Processor
+"prosesor saya terlalu panas meskipun kipas sudah bersih.",Processor
+"prosesor sering membuat komputer restart sendiri.",Processor
+"kipas CPU berhenti berputar setelah beberapa menit.",Fan Cooler
+"suara kipas sangat bising saat saya menggunakan komputer.",Fan Cooler
+"kipas pendingin prosesor tidak berfungsi dengan baik.",Fan Cooler
+"komputer cepat panas walaupun kipas sudah dibersihkan.",Fan Cooler
+"kipas komputer mengeluarkan suara aneh saat berputar.",Fan Cooler
+"komputer sering overheat, mungkin kipas rusak.",Fan Cooler
+"kipas CPU tidak bekerja maksimal, menyebabkan overheat.",Fan Cooler
+"suara kipas casing sangat keras.",Fan Cooler
+"komputer mati mendadak karena kipas berhenti bekerja.",Fan Cooler
+"kipas laptop saya tidak bekerja dengan baik.",Fan Cooler
+"PC nyala tapi gak ada tampilan di layar, layar gelap total",Motherboard
+"Komputer menyala tapi monitor tidak menampilkan apapun",Motherboard
+"Nyala sih komputernya, tapi gak ada respon dari layar, mungkin motherboard-nya",Motherboard
+"Layar tetap gelap walaupun komputer sudah dinyalakan, suara 'bip' juga tidak ada",Motherboard
+"Pas nyalain komputer, gak ada tampilan sama sekali, padahal kipas jalan",Motherboard
+"Monitor gak nangkep sinyal dari komputer, udah cek kabel, mungkin ada masalah di motherboard",Motherboard
+"PC-nya hidup tapi layar blank, setelah upgrade RAM kok jadi begini ya?",RAM
+"Baru ganti RAM, tapi sekarang gak ada tampilan di monitor waktu nyalain komputer",RAM
+"Komputer nyala tapi gak ada display, RAM kayaknya gak ke-detect",RAM
+"Layar tetap hitam setelah RAM baru dipasang, mungkin masalah di RAM atau slotnya",RAM
+"Udah nyalain PC, tapi layarnya gak nyala, kemungkinan besar RAM-nya gak berfungsi",RAM
+"Komputer udah nyala, tapi gak ada tampilan di layar, cuma gelap aja",Motherboard
+"Monitor gak detect apapun walaupun PC udah hidup, kemungkinan motherboard-nya error",Motherboard
+"Udah nyalain komputer tapi monitor gak nyala, mungkin ada masalah di motherboard",Motherboard
+"Komputer hidup, tapi gak ada respon di layar, motherboard mungkin bermasalah",Motherboard
+"Nyala, tapi gak masuk ke sistem, layar gelap terus, udah cek VGA dan kabel, mungkin motherboard",Motherboard
+"PC jalan tapi gak ada display sama sekali, gak masuk ke BIOS juga",Motherboard
+"Komputer kedengeran hidup, tapi gak ada tampilan di monitor, motherboard bisa jadi penyebabnya",Motherboard
+"Pas dihidupin cuma kipas yang jalan, gak ada tampilan di layar, mungkin motherboard rusak",Motherboard
+"Monitor gak nyala sama sekali setelah komputer dinyalakan, gak ada suara beep juga",Motherboard
+"Komputer hidup tapi gak ada gambar di layar, motherboard atau power supply mungkin bermasalah",Motherboard
+"Komputer lambat banget, tiap buka file kayaknya lama banget, hard disk mungkin bermasalah",Hard Disk
+"File suka lama terbuka dan loading terus, mungkin hard disk-nya udah mau rusak",Hard Disk
+"Komputer tiba-tiba lemot dan file suka corrupt, hard disk kayaknya udah lemah",Hard Disk
+"Setiap kali akses file besar, komputer jadi lemot banget, kemungkinan hard disk udah tua",Hard Disk
+"PC jadi sangat lambat dan suka nge-freeze, sepertinya masalah ada di hard disk",Hard Disk
+"Komputer sering hang waktu transfer file besar, mungkin hard disk udah gak sanggup lagi",Hard Disk
+"Lemot banget tiap kali ngeakses file atau aplikasi, kayaknya hard disk-nya harus diganti",Hard Disk
+"Komputer sering freeze mendadak, apalagi kalau nge-copy file, kemungkinan hard disk udah bermasalah",Hard Disk
+"PC jadi lambat banget setelah beberapa menit, tiap kali buka folder, loading terus, mungkin hard disk",Hard Disk
+"Komputer suka lambat waktu akses file, hard disk sering bunyi aneh juga",Hard Disk
+"Komputer suka lag tiba-tiba pas lagi main game, power supply kayaknya gak kuat",Power Supply
+"PC sering lambat waktu nyalain aplikasi berat, mungkin power supply udah lemah",Power Supply
+"Komputer mulai lag parah setelah dipakai lama, power supply-nya mungkin gak stabil",Power Supply
+"Tiap kali buka aplikasi berat, komputer langsung lag, kemungkinan power supply gak bisa nyuplai daya dengan baik",Power Supply
+"Komputer tiba-tiba lag pas lagi browsing, bisa jadi power supply udah gak stabil",Power Supply
+"Sering nge-lag setelah beberapa waktu komputer hidup, mungkin power supply mulai bermasalah",Power Supply
+"PC tiba-tiba lambat pas buka program besar, mungkin power supply udah gak mampu kasih daya cukup",Power Supply
+"Lemot banget tiap kali multitasking, power supply kayaknya gak kuat nge-handle semua komponen",Power Supply
+"PC mulai lambat kalau dinyalain lama, power supply mungkin udah gak stabil kasih daya",Power Supply
+"Sering nge-freeze mendadak dan komputer jadi lambat, kemungkinan power supply udah mulai rusak",Power Supply
+"Komputer butuh waktu lama banget buat booting, kayaknya hard disk-nya udah lelet",Hard Disk
+"Saat buka file besar, loading-nya lama banget, kemungkinan hard disk bermasalah",Hard Disk
+"PC jadi sangat lambat saat membuka aplikasi, mungkin ada yang salah dengan hard disk",Hard Disk
+"Komputer mulai lambat, terutama waktu nge-load data besar, sepertinya hard disk udah mulai rusak",Hard Disk
+"Waktu akses file, komputer jadi lambat parah, hard disk mulai sering bunyi",Hard Disk
+"Lama banget tiap kali start up, komputer jadi super lambat, mungkin hard disk udah usang",Hard Disk
+"Hard disk mulai terdengar suara aneh, komputer jadi lemot parah waktu nge-load aplikasi",Hard Disk
+"Komputer sering lag waktu membuka program, mungkin karena hard disk udah nggak optimal",Hard Disk
+"PC lambat saat menjalankan aplikasi berat, bisa jadi hard disk sudah mulai gagal",Hard Disk
+"Komputer tiba-tiba lemot banget waktu proses data besar, mungkin masalah di hard disk",Hard Disk
+"Komputer jadi lag setelah beberapa jam digunakan, mungkin power supply gak sanggup lagi",Power Supply
+"Pas main game berat, komputer sering ngelag, mungkin power supply gak kuat",Power Supply
+"PC jadi lambat banget setelah beberapa saat dipakai, mungkin power supply udah gak stabil",Power Supply
+"Komputer suka tiba-tiba lemot, apalagi kalau buka banyak aplikasi sekaligus, power supply mungkin bermasalah",Power Supply
+"PC sering ngelag kalau nyalain aplikasi yang berat, mungkin power supply udah gak bisa kasih daya cukup",Power Supply
+"Setelah dipakai beberapa jam, PC mulai lemot, kemungkinan power supply mulai nggak stabil",Power Supply
+"Komputer sering lag, terutama kalau dipakai lama, sepertinya power supply udah nggak berfungsi baik",Power Supply
+"Sering freeze dan lemot pas buka game berat, mungkin power supply udah nggak mampu nyuplai daya",Power Supply
+"PC sering nge-lag setelah dipakai lama, bisa jadi karena power supply nggak stabil",Power Supply
+"Komputer lambat banget setelah beberapa waktu nyala, mungkin power supply udah nggak sanggup",Power Supply
+"Monitor menampilkan garis-garis aneh saat komputer dinyalakan",Graphic Card
+"Saat main game, tiba-tiba muncul pixel-pixel warna warni di layar",Graphic Card
+"Gambar di layar sering muncul garis horizontal yang tidak hilang",Graphic Card
+"Monitor tiba-tiba menampilkan blok-blok warna yang bergerak saat browsing",Graphic Card
+"Saat rendering video, layar menampilkan pola garis dan gambar jadi buram",Graphic Card
+"Gambarnya seperti retak dengan pixel rusak di beberapa bagian",Graphic Card
+"Monitor menampilkan kotak-kotak hitam dan putih setelah komputer digunakan beberapa menit",Graphic Card
+"Saat bermain game, layar penuh dengan garis vertikal",Graphic Card
+"Tiba-tiba muncul pola aneh di layar saat menonton video, seperti rusak",Graphic Card
+"Gambar di layar bergetar dan muncul titik-titik warna acak",Graphic Card
+"Setiap kali membuka aplikasi grafis, monitor menampilkan artefak aneh",Graphic Card
+"Monitor menunjukkan garis-garis berkedip ketika menggunakan software desain grafis",Graphic Card
+"Gambarnya jadi pecah-pecah dengan warna yang berubah tiba-tiba",Graphic Card
+"Layar monitor menampilkan pixel-pixel yang bergerak saat menjalankan game berat",Graphic Card
+"Ketika menyalakan komputer, gambar di layar tampak seperti patah-patah dengan garis warna",Graphic Card
+"Artefak grafis muncul saat GPU digunakan untuk aplikasi berat, layar jadi buram",Graphic Card
+"Monitor menunjukkan pola aneh dan warna berkedip-kedip saat rendering",Graphic Card
+"Layar tiba-tiba menampilkan blok-blok besar berwarna biru dan hijau",Graphic Card
+"Muncul distorsi gambar dengan banyak garis ketika video diputar",Graphic Card
+"Layar tiba-tiba berisi pola-pola warna yang tidak seharusnya muncul saat menggunakan aplikasi 3D",Graphic Card
+"Saat browsing biasa, tiba-tiba kipas CPU berputar kencang banget",Fan Cooler
+"Kipas pendingin langsung berisik pas buka YouTube, padahal cuma nonton video",Fan Cooler
+"Cuma buka browser, tapi kipas CPU suaranya jadi kayak pesawat",Fan Cooler
+"Kipas pendingin mulai bunyi kencang begitu buka beberapa tab di Chrome",Fan Cooler
+"Pas lagi nonton film di Netflix, kipas CPU bunyinya kencang banget terus",Fan Cooler
+"Hanya browsing biasa, tapi kipas komputer langsung berisik",Fan Cooler
+"Saat streaming video, tiba-tiba kipas pendingin suaranya jadi keras",Fan Cooler
+"Kipas CPU mulai berisik tiap kali nonton film di laptop, padahal gak ngapa-ngapain yang berat",Fan Cooler
+"Waktu buka situs streaming, kipas pendingin CPU bunyi kayak mesin jet",Fan Cooler
+"Kipas cooler tiba-tiba mengeluarkan suara bising pas buka tab baru di browser",Fan Cooler
+"Setiap kali buka browser buat streaming, kipas langsung berputar kencang dan berisik",Fan Cooler
+"Pas nonton film atau video di laptop, kipas CPU suaranya jadi keras banget",Fan Cooler
+"Kipas cooler bunyinya kencang padahal cuma browsing biasa",Fan Cooler
+"Streaming video bikin kipas CPU jadi overdrive, suaranya kayak vacuum cleaner",Fan Cooler
+"Buka aplikasi streaming, kipas cooler langsung mengeluarkan suara berisik",Fan Cooler
+"Saat nonton film HD, kipas cooler CPU bunyinya jadi makin keras",Fan Cooler
+"Hanya buka beberapa tab di browser, tapi kipas cooler bunyi terus",Fan Cooler
+"Pas lagi browsing artikel, tiba-tiba kipas pendingin CPU berisik banget",Fan Cooler
+"Setiap kali nonton video di internet, kipas pendingin CPU jadi berputar kencang dan mengganggu",Fan Cooler
+"Pas lagi buka browser buat nonton, kipas CPU mulai bunyi bising gak karuan",Fan Cooler
+"Komputer terus restart sendiri setelah beberapa menit dinyalakan",RAM
+"PC mati nyala terus menerus, kayaknya karena masalah di RAM",RAM
+"Setelah upgrade RAM, komputer jadi sering mati nyala terus",RAM
+"Komputer nggak bisa masuk Windows, mati nyala sendiri, kemungkinan RAM bermasalah",RAM
+"Komputer terus reboot secara acak, curiga ada yang salah dengan RAM",RAM
+"Setiap kali dinyalakan, komputer restart sendiri tanpa henti",RAM
+"PC gue nyala sebentar terus mati lagi, kayaknya ada masalah di RAM",RAM
+"Komputer langsung mati setelah dihidupkan, lalu nyala lagi, terus begitu terus",RAM
+"PC restart sendiri terus-terusan pas mau masuk sistem, mungkin karena RAM",RAM
+"Komputer gak bisa booting dengan benar, malah restart terus menerus",RAM
+"PC langsung mati dan nyala lagi setelah dinyalakan, kayaknya ada masalah di RAM",RAM
+"Komputer reboot terus-menerus tanpa sempat masuk ke desktop, kemungkinan RAM rusak",RAM
+"Setelah ganti RAM, komputer jadi sering restart sendiri",RAM
+"Komputer gak stabil, sering mati nyala sendiri, sepertinya RAM-nya bermasalah",RAM
+"Komputer nyala sebentar, terus mati lagi, kemungkinan RAM yang bikin masalah",RAM
+"Setiap kali dinyalakan, komputer cuma restart tanpa henti, ada yang salah di RAM",RAM
+"PC terus-menerus reboot tanpa pernah masuk ke Windows, kemungkinan RAM rusak",RAM
+"Komputer gak bisa nyala normal, restart terus pas baru dihidupkan",RAM
+"Komputer restart berkali-kali, kayaknya masalah RAM yang bikin gak stabil",RAM
+"PC terus reboot pas nyala, kayaknya ada masalah di RAM",RAM
+"Komputer tidak mau menyala meskipun sudah ditekan tombol power",Processor
+"Layar komputer tetap hitam saat dinyalakan tanpa ada tampilan apapun",Processor
+"Komputer tiba-tiba mati saat digunakan untuk rendering video",Processor
+"Proses booting berhenti di layar hitam tanpa logo atau animasi",Processor
+"Komputer sering hang ketika membuka beberapa aplikasi sekaligus",Processor
+"Komputer tidak bisa masuk BIOS dan langsung mati setelah dinyalakan",Processor
+"Suara beep berulang kali terdengar saat komputer dihidupkan",Processor
+"Komputer sering mengalami BSOD saat digunakan untuk browsing",Processor
+"Komputer mendadak mati saat digunakan untuk bermain game",Processor
+"Komputer tidak bisa di-restart, hanya menampilkan layar hitam",Processor
+"Komputer panas berlebihan meskipun hanya digunakan untuk mengetik",Processor
+"Komputer mengalami lag yang sangat parah saat memutar video HD",Processor
+"Layar komputer tiba-tiba mati tanpa pesan error apapun",Processor
+"Suara kipas terdengar sangat keras tetapi komputer tetap lambat",Processor
+"Komputer freeze setelah beberapa menit digunakan",Processor
+"Komputer tidak merespons saat ditekan tombol apapun di keyboard",Processor
+"Proses booting sangat lama dan terkadang berhenti di tengah jalan",Processor
+"Komputer mati mendadak dan butuh waktu lama untuk bisa dinyalakan lagi",Processor
+"Komputer restart sendiri tanpa alasan jelas saat menjalankan program berat",Processor
+"Komputer menampilkan pesan error kernel panic saat proses booting",Processor
+"Komputer sering mengalami BSOD tanpa alasan jelas",RAM
+"Program tiba-tiba tertutup saat digunakan tanpa pesan error",RAM
+"Komputer restart sendiri ketika membuka banyak tab browser",RAM
+"Aplikasi berjalan sangat lambat meskipun spesifikasi cukup",RAM
+"File yang disimpan tiba-tiba hilang atau rusak",RAM
+"Komputer tidak bisa masuk ke OS setelah update",RAM
+"Layar hitam muncul setelah proses booting",RAM
+"Komputer menampilkan pesan 'Memory could not be read'",RAM
+"Komputer mendeteksi kapasitas RAM yang salah",RAM
+"Komputer sering freeze saat melakukan multitasking",RAM
+"Suara beep berulang kali terdengar saat komputer dinyalakan",RAM
+"Aplikasi sering crash saat proses render",RAM
+"Kapasitas RAM tidak terbaca penuh di sistem",RAM
+"Komputer tiba-tiba mati saat menjalankan game",RAM
+"Proses boot sangat lambat, terutama setelah restart",RAM
+"Komputer sering hang saat membuka file besar",RAM
+"Komputer butuh waktu lama untuk shutdown",RAM
+"Prosesor panas saat RAM digunakan intensif",RAM
+"Komputer mengeluarkan kode error 'Out of Memory'",RAM
+"Layar berkedip saat menjalankan aplikasi tertentu",RAM
+"Komputer tidak menyala sama sekali saat ditekan power",Motherboard
+"Komputer sering mati mendadak tanpa alasan",Motherboard
+"Beberapa port USB tidak berfungsi",Motherboard
+"Komputer sering restart sendiri saat digunakan",Motherboard
+"Suara beep panjang terdengar saat booting",Motherboard
+"Komputer tidak bisa masuk ke BIOS",Motherboard
+"Komputer mengalami overheat walaupun tidak digunakan intensif",Motherboard
+"Tidak ada tampilan di layar saat komputer dinyalakan",Motherboard
+"Beberapa komponen tidak terdeteksi di sistem",Motherboard
+"Komputer sering hang saat dihidupkan dari sleep mode",Motherboard
+"Fan CPU tidak berputar dengan normal",Motherboard
+"Performa komputer menurun drastis tanpa sebab",Motherboard
+"Komputer freeze saat menjalankan program berat",Motherboard
+"Komputer mati saat menghubungkan perangkat USB",Motherboard
+"Komputer tidak mengeluarkan suara dari speaker onboard",Motherboard
+"Komputer lambat saat booting",Motherboard
+"Komputer gagal booting setelah reset BIOS",Motherboard
+"Koneksi internet tidak stabil karena LAN rusak",Motherboard
+"Baterai CMOS cepat habis",Motherboard
+"Keyboard dan mouse sering disconnect",Motherboard
+"Komputer tidak mau menyala sama sekali",Power Supply
+"Komputer tiba-tiba mati saat digunakan",Power Supply
+"Terdengar suara mendesis dari dalam casing",Power Supply
+"Lampu indikator power berkedip terus-menerus",Power Supply
+"Fan tidak berputar saat komputer dinyalakan",Power Supply
+"Komputer sering restart sendiri tanpa sebab",Power Supply
+"Suara kipas sangat keras saat power supply bekerja",Power Supply
+"Komputer tidak menyala meskipun indikator power menyala",Power Supply
+"Komputer mati mendadak saat digunakan untuk gaming",Power Supply
+"Komponen lain seperti GPU tidak mendapatkan daya",Power Supply
+"Lampu indikator motherboard berkedip-kedip",Power Supply
+"Komputer overheat meskipun hanya digunakan ringan",Power Supply
+"Komputer tidak bisa booting dari cold boot",Power Supply
+"Monitor mati sendiri ketika komputer dinyalakan",Power Supply
+"Performa komputer menurun saat beban tinggi",Power Supply
+"Komputer mengalami lonjakan daya",Power Supply
+"Komputer sering mati saat dihubungkan ke perangkat eksternal",Power Supply
+"Komputer lambat menyala saat dihidupkan",Power Supply
+"Komputer mati mendadak tanpa bisa menyala kembali",Power Supply
+"Komputer menunjukkan tanda-tanda korsleting",Power Supply
+"Komputer cepat panas meskipun tidak digunakan berat",Fan Cooler
+"Suara kipas sangat berisik saat komputer dinyalakan",Fan Cooler
+"Fan tidak berputar meskipun komputer menyala",Fan Cooler
+"Komputer mendadak mati saat beban CPU meningkat",Fan Cooler
+"Terdengar bunyi gesekan dari kipas dalam casing",Fan Cooler
+"Komputer overheat dalam waktu singkat",Fan Cooler
+"Kinerja komputer menurun karena panas berlebih",Fan Cooler
+"Komputer restart sendiri saat suhu meningkat",Fan Cooler
+"Suhu CPU meningkat drastis dalam hitungan menit",Fan Cooler
+"Suara kipas terdengar sangat lemah",Fan Cooler
+"Komputer hang saat menjalankan aplikasi berat",Fan Cooler
+"Kipas tidak berfungsi meskipun suhu CPU tinggi",Fan Cooler
+"Terdengar suara kipas yang bergemuruh",Fan Cooler
+"Komputer freeze saat rendering",Fan Cooler
+"Komputer cepat panas meskipun fan diatur maksimal",Fan Cooler
+"Fan hanya berputar sebentar saat komputer menyala",Fan Cooler
+"Suhu CPU stabil di angka tinggi",Fan Cooler
+"Komputer lambat karena suhu berlebihan",Fan Cooler
+"Suara kipas tidak konsisten saat bekerja",Fan Cooler
+"Komputer menunjukkan warning CPU overheating",Fan Cooler
+"Layar menampilkan garis-garis horizontal",Graphic Card
+"Komputer hang saat menjalankan aplikasi grafis",Graphic Card
+"Komputer mati mendadak saat rendering video",Graphic Card
+"FPS drop drastis saat bermain game",Graphic Card
+"Layar berkedip saat membuka aplikasi tertentu",Graphic Card
+"Fan GPU berputar sangat cepat tanpa sebab",Graphic Card
+"Layar menampilkan warna aneh",Graphic Card
+"Komputer sering restart saat bermain game",Graphic Card
+"Layar tidak menampilkan gambar meskipun komputer menyala",Graphic Card
+"Komputer freeze saat GPU dipakai intensif",Graphic Card
+"Komputer crash saat menjalankan aplikasi grafis berat",Graphic Card
+"Layar hitam muncul saat GPU digunakan",Graphic Card
+"Suara kipas GPU sangat berisik",Graphic Card
+"Komputer sering BSOD dengan pesan terkait GPU",Graphic Card
+"Suhu GPU tinggi saat idle",Graphic Card
+"Komputer mati mendadak saat menggunakan 3D rendering",Graphic Card
+"Driver GPU sering mengalami error",Graphic Card
+"Komputer lambat saat mengolah grafik",Graphic Card
+"Output video tidak terdeteksi",Graphic Card
+"Game sering lag meskipun spesifikasi GPU mencukupi",Graphic Card
+"Komputer tidak mau menyala",Processor
+"Komputer mati mendadak saat rendering video",Processor
+"Layar hitam tanpa tampilan saat booting",Processor
+"Prosesor overheat meskipun penggunaan ringan",Processor
+"Komputer sering hang saat multitasking",Processor
+"Komputer tidak bisa masuk BIOS",Processor
+"Komputer freeze tanpa sebab jelas",Processor
+"Komputer restart sendiri saat beban CPU tinggi",Processor
+"Komputer lambat dalam membuka aplikasi",Processor
+"Komputer tiba-tiba mati saat bermain game",Processor
+"BSOD saat menjalankan aplikasi berat",Processor
+"Sistem crash saat rendering",Processor
+"Suara beep terus terdengar saat boot",Processor
+"Komputer sering freeze di layar boot",Processor
+"Suhu CPU tinggi bahkan di idle",Processor
+"Komputer butuh waktu lama untuk boot",Processor
+"Komputer tidak responsif",Processor
+"Komputer tiba-tiba restart",Processor
+"Komputer sering mati tanpa alasan",Processor
+"Aplikasi crash saat CPU digunakan intensif",Processor
+"Komputer gagal membaca drive saat startup",Hard Disk
+"Folder atau file sering mengalami korupsi setelah disimpan",Hard Disk
+"Komputer melambat drastis saat memindahkan file",Hard Disk
+"Suara klik atau ketukan terdengar dari hard disk",Hard Disk
+"Proses pencarian file sangat lambat",Hard Disk
+"Komputer melakukan disk check secara otomatis saat startup",Hard Disk
+"Proses instalasi software sering gagal",Hard Disk
+"File yang baru di-download atau disalin tiba-tiba hilang",Hard Disk
+"Komputer mengalami BSOD dengan kode terkait storage",Hard Disk
+"Data yang tersimpan tidak bisa diakses atau terbaca",Hard Disk
+"Komputer freeze saat mengakses file lama",Hard Disk
+"Hard disk tidak muncul di daftar perangkat penyimpanan",Hard Disk
+"Komputer butuh waktu lama untuk membuka direktori besar",Hard Disk
+"Proses backup sering gagal di tengah jalan",Hard Disk
+"Kapasitas drive terbaca tidak sesuai dengan ukuran sebenarnya",Hard Disk
+"Layar menampilkan artefak visual atau titik-titik aneh",Graphic Card
+"Komputer tiba-tiba freeze saat menonton video",Graphic Card
+"GPU mencapai suhu tinggi tanpa penggunaan intensif",Graphic Card
+"Layar berubah menjadi warna acak atau pola saat bermain game",Graphic Card
+"Driver GPU sering membutuhkan reset ulang untuk berfungsi",Graphic Card

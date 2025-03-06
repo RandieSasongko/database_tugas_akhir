@@ -1,0 +1,11 @@
+UserID,Description,Component,Status,Result,Status_Predict
+1,"Komputer saya tidak mau menyala sama sekali","Power Supply","Selesai","Power Supply",1
+1,"Komputer menyala tapi tidak tampil di monitor","Motherboard","Selesai","Graphic Card",0
+2,"PC tiba-tiba mati saat digunakan","Power Supply","Selesai","Power Supply",1
+2,"Layar menampilkan garis-garis aneh","Graphic Card","Selesai","Graphic Card",1
+1,"PC restart sendiri secara acak","Motherboard","Selesai","RAM",0
+1,"Komputer sering mengalami blue screen","RAM","Selesai","RAM",1
+1,"PC berbunyi beep berulang kali saat dinyalakan","Motherboard","Selesai","Motherboard",1
+2,"Hard disk tidak terbaca oleh sistem","Hard Disk","Selesai","RAM",0
+2,"CPU terlalu panas saat bermain game","Processor","Selesai","Processor",1
+2,"Data di hard disk sering korup","Hard Disk","Selesai","Hard Disk",1
