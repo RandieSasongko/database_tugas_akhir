@@ -73,16 +73,39 @@ type Claims struct {
 
 func initDB() {
 	var err error
-	dsn := "root:@tcp(127.0.0.1:3306)/compere_tugasakhir?charset=utf8mb4&parseTime=True&loc=Local"
+
+	dsn := fmt.Sprintf(
+		"%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
+		os.Getenv("DB_USER"),
+		os.Getenv("DB_PASS"),
+		os.Getenv("DB_HOST"), // Ini harus dari Railway
+		os.Getenv("DB_PORT"), // Biasanya 3306
+		os.Getenv("DB_NAME"),
+	)
+
 	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
+		fmt.Printf("Error connecting to database: %v\n", err)
 		panic("Failed to connect to database")
 	}
-	db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
+
+	fmt.Println("Database connected successfully")
+
+	// AutoMigrate
+	err = db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
+	if err != nil {
+		fmt.Printf("Error migrating database: %v\n", err)
+		panic("Failed to migrate database")
+	}
 
 	// Jalankan seeding data dari CSV
-	seedTrainingDataFromCSV(db, "training_data.csv")
-	seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
+	if err := seedTrainingDataFromCSV(db, "training_data.csv"); err != nil {
+		fmt.Printf("Error seeding training data: %v\n", err)
+	}
+
+	if err := seedPerbaikanDataFromCSV(db, "perbaikan_data.csv"); err != nil {
+		fmt.Printf("Error seeding perbaikan data: %v\n", err)
+	}
 }
 
 func generateToken(user User) (string, error) {
