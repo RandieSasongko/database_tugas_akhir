@@ -27,10 +27,12 @@ type User struct {
 	Username     string `gorm:"unique"`
 	Password     string
 	Role         string
-	FullName     *string `gorm:"type:varchar(100)"`
-	Email        *string `gorm:"type:varchar(100)"`
-	PhoneNumber  *string `gorm:"type:varchar(20)"`
-	PhotoProfile *string `gorm:"type:varchar(255)"`
+	FullName     *string   `gorm:"type:varchar(100)"`
+	Email        *string   `gorm:"type:varchar(100)"`
+	PhoneNumber  *string   `gorm:"type:varchar(20)"`
+	PhotoProfile *string   `gorm:"type:varchar(255)"`
+	CreatedAt    time.Time `gorm:"autoCreateTime"`
+	UpdatedAt    time.Time `gorm:"autoUpdateTime"`
 }
 
 type Perbaikan struct {
@@ -42,19 +44,25 @@ type Perbaikan struct {
 	Result            string
 	Status_Predict    string
 	PerbaikanKomponen []PerbaikanKomponen `gorm:"foreignKey:PerbaikanID"`
+	CreatedAt         time.Time           `gorm:"autoCreateTime"`
+	UpdatedAt         time.Time           `gorm:"autoUpdateTime"`
 }
 
 type TrainingData struct {
 	ID          uint `gorm:"primaryKey"`
 	Description string
 	Component   string
+	CreatedAt   time.Time `gorm:"autoCreateTime"`
+	UpdatedAt   time.Time `gorm:"autoUpdateTime"`
 }
 
 type PerbaikanKomponen struct {
-	ID            uint    `gorm:"primaryKey"`
-	PerbaikanID   uint    `gorm:"not null"`
-	KomponenRusak string  `gorm:"type:varchar(100);not null"`
-	Persentase    float64 `gorm:"not null"`
+	ID            uint      `gorm:"primaryKey"`
+	PerbaikanID   uint      `gorm:"not null"`
+	KomponenRusak string    `gorm:"type:varchar(100);not null"`
+	Persentase    float64   `gorm:"not null"`
+	CreatedAt     time.Time `gorm:"autoCreateTime"`
+	UpdatedAt     time.Time `gorm:"autoUpdateTime"`
 }
 
 type Claims struct {
@@ -64,15 +72,8 @@ type Claims struct {
 }
 
 func initDB() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatalf("Error loading .env file")
-	}
-
-	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8mb4&parseTime=True&loc=Local",
-		os.Getenv("DB_USER"), os.Getenv("DB_PASS"), os.Getenv("DB_HOST"),
-		os.Getenv("DB_PORT"), os.Getenv("DB_NAME"))
-
+	var err error
+	dsn := "root:@tcp(127.0.0.1:3306)/compere_tugasakhir?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic("Failed to connect to database")
@@ -242,7 +243,7 @@ func createPerbaikan(c *gin.Context) {
 
 func getPerbaikan(c *gin.Context) {
 	var perbaikan []Perbaikan
-	if err := db.Preload("PerbaikanKomponen").Find(&perbaikan).Error; err != nil {
+	if err := db.Preload("PerbaikanKomponen").Order("created_at DESC").Find(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve perbaikan", "details": err.Error()})
 		return
 	}
@@ -264,7 +265,7 @@ func getPerbaikanByUser(c *gin.Context) {
 	userID := c.Param("id")
 	var perbaikan []Perbaikan
 
-	if err := db.Preload("PerbaikanKomponen").Where("user_id = ?", userID).Find(&perbaikan).Error; err != nil {
+	if err := db.Preload("PerbaikanKomponen").Where("user_id = ?", userID).Order("created_at DESC").Find(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve perbaikan for user", "details": err.Error()})
 		return
 	}
