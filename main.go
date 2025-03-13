@@ -76,7 +76,7 @@ func initDB() {
 
 	user := os.Getenv("DB_USER")
 	password := os.Getenv("DB_PASS")
-	host := "mysql.railway.internal"
+	host := os.Getenv("DB_HOST")
 	port := "3306"
 	database := os.Getenv("DB_NAME")
 
