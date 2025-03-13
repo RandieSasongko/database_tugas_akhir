@@ -92,20 +92,15 @@ func initDB() {
 	fmt.Println("Database connected successfully")
 
 	// AutoMigrate
-	err = db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
 	if err != nil {
-		fmt.Printf("Error migrating database: %v\n", err)
-		panic("Failed to migrate database")
+		panic("Failed to connect to database")
 	}
+	db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
 
 	// Jalankan seeding data dari CSV
-	if err := seedTrainingDataFromCSV(db, "training_data.csv"); err != nil {
-		fmt.Printf("Error seeding training data: %v\n", err)
-	}
-
-	if err := seedPerbaikanDataFromCSV(db, "perbaikan_data.csv"); err != nil {
-		fmt.Printf("Error seeding perbaikan data: %v\n", err)
-	}
+	// Jalankan seeding data dari CSV
+	seedTrainingDataFromCSV(db, "training_data.csv")
+	seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
 }
 
 func generateToken(user User) (string, error) {
