@@ -1,172 +1,88 @@
 package main
 
 import (
-	"context"
 	"encoding/csv"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
+	"strconv"
 	"strings"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
 )
 
-var client *mongo.Client
-var db *mongo.Database
+var db *gorm.DB
 
+// compereTugasAkhir12345
 var jwtSecret = []byte("compereTugasAkhir12345")
 
 type User struct {
-	ID           primitive.ObjectID `bson:"_id,omitempty"`
-	Username     string             `bson:"username"`
-	Password     string             `bson:"password"`
-	Role         string             `bson:"role"`
-	FullName     *string            `bson:"full_name,omitempty"`
-	Email        *string            `bson:"email,omitempty"`
-	PhoneNumber  *string            `bson:"phone_number,omitempty"`
-	PhotoProfile *string            `bson:"photo_profile,omitempty"`
-	CreatedAt    time.Time          `bson:"created_at"`
-	UpdatedAt    time.Time          `bson:"updated_at"`
+	ID           uint   `gorm:"primaryKey"`
+	Username     string `gorm:"unique"`
+	Password     string
+	Role         string
+	FullName     *string   `gorm:"type:varchar(100)"`
+	Email        *string   `gorm:"type:varchar(100)"`
+	PhoneNumber  *string   `gorm:"type:varchar(20)"`
+	PhotoProfile *string   `gorm:"type:varchar(255)"`
+	CreatedAt    time.Time `gorm:"autoCreateTime"`
+	UpdatedAt    time.Time `gorm:"autoUpdateTime"`
 }
 
 type Perbaikan struct {
-	ID             primitive.ObjectID `bson:"_id,omitempty"`
-	UserID         primitive.ObjectID `bson:"user_id"`
-	Description    string             `bson:"description"`
-	Component      string             `bson:"component"`
-	Status         string             `bson:"status"`
-	Result         string             `bson:"result"`
-	Status_Predict string             `bson:"status_predict"`
-	CreatedAt      time.Time          `bson:"created_at"`
-	UpdatedAt      time.Time          `bson:"updated_at"`
+	ID                uint `gorm:"primaryKey"`
+	UserID            uint
+	Description       string
+	Component         string
+	Status            string
+	Result            string
+	Status_Predict    string
+	PerbaikanKomponen []PerbaikanKomponen `gorm:"foreignKey:PerbaikanID"`
+	CreatedAt         time.Time           `gorm:"autoCreateTime"`
+	UpdatedAt         time.Time           `gorm:"autoUpdateTime"`
 }
 
 type TrainingData struct {
-	ID          primitive.ObjectID `bson:"_id,omitempty"`
-	Description string             `bson:"description"`
-	Component   string             `bson:"component"`
-	CreatedAt   time.Time          `bson:"created_at"`
-	UpdatedAt   time.Time          `bson:"updated_at"`
+	ID          uint `gorm:"primaryKey"`
+	Description string
+	Component   string
+	CreatedAt   time.Time `gorm:"autoCreateTime"`
+	UpdatedAt   time.Time `gorm:"autoUpdateTime"`
 }
 
 type PerbaikanKomponen struct {
-	ID            primitive.ObjectID `bson:"_id,omitempty"`
-	PerbaikanID   primitive.ObjectID `bson:"perbaikan_id"`
-	KomponenRusak string             `bson:"komponen_rusak"`
-	Persentase    float64            `bson:"persentase"`
-	CreatedAt     time.Time          `bson:"created_at"`
-	UpdatedAt     time.Time          `bson:"updated_at"`
+	ID            uint      `gorm:"primaryKey"`
+	PerbaikanID   uint      `gorm:"not null"`
+	KomponenRusak string    `gorm:"type:varchar(100);not null"`
+	Persentase    float64   `gorm:"not null"`
+	CreatedAt     time.Time `gorm:"autoCreateTime"`
+	UpdatedAt     time.Time `gorm:"autoUpdateTime"`
 }
 
 type Claims struct {
-	ID       primitive.ObjectID `json:"id"`
-	Username string             `json:"username"`
+	ID       uint   `json:"id"`
+	Username string `json:"username"`
 	jwt.StandardClaims
 }
 
 func initDB() {
 	var err error
-	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017")
-	client, err = mongo.Connect(context.TODO(), clientOptions)
+	dsn := "root:nudgIcUzPEjPJwiBqpopSgkYSDUTsnuX@tcp(mysql.railway.internal:3306)/railway"
+	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
-		log.Fatal(err)
+		panic("Failed to connect to database")
 	}
+	db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
 
-	err = client.Ping(context.TODO(), nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	fmt.Println("Connected to MongoDB!")
-
-	db = client.Database("compere_db")
-
-	// Seed data
-	seedTrainingDataFromCSV("training_data.csv")
-	seedPerbaikanDataFromCSV("perbaikan_data.csv")
-}
-
-func seedTrainingDataFromCSV(filename string) {
-	file, err := os.Open(filename)
-	if err != nil {
-		log.Fatalf("Gagal membuka file CSV: %v", err)
-	}
-	defer file.Close()
-
-	reader := csv.NewReader(file)
-	records, err := reader.ReadAll()
-	if err != nil {
-		log.Fatalf("Gagal membaca file CSV: %v", err)
-	}
-
-	for i, record := range records {
-		if i == 0 {
-			continue
-		}
-
-		trainingData := TrainingData{
-			Description: record[0],
-			Component:   record[1],
-			CreatedAt:   time.Now(),
-			UpdatedAt:   time.Now(),
-		}
-
-		_, err := db.Collection("training_data").InsertOne(context.TODO(), trainingData)
-		if err != nil {
-			log.Printf("Gagal memasukkan data ke database: %v", err)
-		}
-	}
-
-	fmt.Println("Training data dari CSV berhasil dimasukkan ke database.")
-}
-
-func seedPerbaikanDataFromCSV(filename string) {
-	file, err := os.Open(filename)
-	if err != nil {
-		log.Fatalf("Gagal membuka file CSV: %v", err)
-	}
-	defer file.Close()
-
-	reader := csv.NewReader(file)
-	records, err := reader.ReadAll()
-	if err != nil {
-		log.Fatalf("Gagal membaca file CSV: %v", err)
-	}
-
-	for i, record := range records {
-		if i == 0 {
-			continue
-		}
-
-		userID, _ := primitive.ObjectIDFromHex(record[0])
-		statusPredict := record[5]
-
-		perbaikan := Perbaikan{
-			UserID:         userID,
-			Description:    record[1],
-			Component:      record[2],
-			Status:         record[3],
-			Result:         record[4],
-			Status_Predict: statusPredict,
-			CreatedAt:      time.Now(),
-			UpdatedAt:      time.Now(),
-		}
-
-		_, err := db.Collection("perbaikan").InsertOne(context.TODO(), perbaikan)
-		if err != nil {
-			log.Printf("Gagal memasukkan data ke database: %v", err)
-		}
-	}
-
-	fmt.Println("Data dummy Perbaikan berhasil dimasukkan ke database.")
+	// Jalankan seeding data dari CSV
+	seedTrainingDataFromCSV(db, "training_data.csv")
+	seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
 }
 
 func generateToken(user User) (string, error) {
@@ -189,23 +105,20 @@ func register(c *gin.Context) {
 		return
 	}
 
+	// Validation for required fields
 	if strings.TrimSpace(user.Username) == "" || strings.TrimSpace(user.Password) == "" {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Username and Password are required"})
 		return
 	}
 
+	// Check if username already exists
 	var existingUser User
-	err := db.Collection("users").FindOne(context.TODO(), bson.M{"username": user.Username}).Decode(&existingUser)
-	if err == nil {
+	if err := db.Where("username = ?", user.Username).First(&existingUser).Error; err == nil {
 		c.JSON(http.StatusConflict, gin.H{"error": "Username already taken"})
 		return
 	}
 
-	user.CreatedAt = time.Now()
-	user.UpdatedAt = time.Now()
-
-	_, err = db.Collection("users").InsertOne(context.TODO(), user)
-	if err != nil {
+	if err := db.Create(&user).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to register user", "details": err.Error()})
 		return
 	}
@@ -219,23 +132,26 @@ func login(c *gin.Context) {
 		Password string `json:"password"`
 	}
 
+	// Bind JSON input (expecting { "username": "someuser", "password": "somepass" })
 	if err := c.ShouldBindJSON(&credentials); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid input format", "details": err.Error()})
 		return
 	}
 
+	// Check if the user exists in the database
 	var user User
-	err := db.Collection("users").FindOne(context.TODO(), bson.M{"username": credentials.Username}).Decode(&user)
-	if err != nil {
+	if err := db.Where("username = ?", credentials.Username).First(&user).Error; err != nil {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid username or password"})
 		return
 	}
 
+	// Check if the password matches (here you would ideally hash the password)
 	if user.Password != credentials.Password {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid username or password"})
 		return
 	}
 
+	// Generate JWT token
 	token, err := generateToken(user)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to generate token"})
@@ -245,6 +161,7 @@ func login(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "Login successful", "token": token})
 }
 
+// Middleware to protect routes that require authentication
 func authorize(c *gin.Context) {
 	tokenString := c.GetHeader("Authorization")
 	if tokenString == "" {
@@ -265,6 +182,7 @@ func authorize(c *gin.Context) {
 		return
 	}
 
+	// Extract claims from the token
 	claims, ok := token.Claims.(*Claims)
 	if !ok {
 		c.JSON(http.StatusUnauthorized, gin.H{"error": "Invalid token claims"})
@@ -272,11 +190,29 @@ func authorize(c *gin.Context) {
 		return
 	}
 
+	// Attach user info to context
 	c.Set("user_id", claims.ID)
 	c.Set("username", claims.Username)
 	c.Next()
 }
 
+// CREATE for Perbaikan Komponen Persentase
+func createPerbaikanKomponen(c *gin.Context) {
+	var perbaikanKomponen PerbaikanKomponen
+	if err := c.ShouldBindJSON(&perbaikanKomponen); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid input format", "details": err.Error()})
+		return
+	}
+
+	if err := db.Create(&perbaikanKomponen).Error; err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create perbaikan komponen", "details": err.Error()})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"message": "Perbaikan komponen created successfully"})
+}
+
+// CRUD for Perbaikan
 func createPerbaikan(c *gin.Context) {
 	var perbaikan Perbaikan
 	if err := c.ShouldBind(&perbaikan); err != nil {
@@ -284,18 +220,17 @@ func createPerbaikan(c *gin.Context) {
 		return
 	}
 
+	// Validate required fields
 	if strings.TrimSpace(perbaikan.Description) == "" || strings.TrimSpace(perbaikan.Component) == "" {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Description and Component are required"})
 		return
 	}
 
 	userID, _ := c.Get("user_id")
-	perbaikan.UserID = userID.(primitive.ObjectID)
-	perbaikan.CreatedAt = time.Now()
-	perbaikan.UpdatedAt = time.Now()
 
-	_, err := db.Collection("perbaikan").InsertOne(context.TODO(), perbaikan)
-	if err != nil {
+	perbaikan.UserID = userID.(uint)
+
+	if err := db.Create(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create perbaikan", "details": err.Error()})
 		return
 	}
@@ -308,50 +243,31 @@ func createPerbaikan(c *gin.Context) {
 
 func getPerbaikan(c *gin.Context) {
 	var perbaikan []Perbaikan
-	cursor, err := db.Collection("perbaikan").Find(context.TODO(), bson.M{})
-	if err != nil {
+	if err := db.Preload("PerbaikanKomponen").Order("created_at DESC").Find(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve perbaikan", "details": err.Error()})
 		return
 	}
-	defer cursor.Close(context.TODO())
-
-	for cursor.Next(context.TODO()) {
-		var p Perbaikan
-		cursor.Decode(&p)
-		perbaikan = append(perbaikan, p)
-	}
-
 	c.JSON(http.StatusOK, perbaikan)
 }
 
 func getPerbaikanById(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
-	var perbaikan Perbaikan
+	id := c.Param("id")
+	var perbaikan []Perbaikan
 
-	err := db.Collection("perbaikan").FindOne(context.TODO(), bson.M{"_id": id}).Decode(&perbaikan)
-	if err != nil {
+	if err := db.Preload("PerbaikanKomponen").Where("id = ?", id).Find(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve perbaikan", "details": err.Error()})
 		return
 	}
-
 	c.JSON(http.StatusOK, perbaikan)
 }
 
 func getPerbaikanByUser(c *gin.Context) {
-	userID, _ := primitive.ObjectIDFromHex(c.Param("id"))
+	userID := c.Param("id")
 	var perbaikan []Perbaikan
 
-	cursor, err := db.Collection("perbaikan").Find(context.TODO(), bson.M{"user_id": userID})
-	if err != nil {
+	if err := db.Preload("PerbaikanKomponen").Where("user_id = ?", userID).Order("created_at DESC").Find(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve perbaikan for user", "details": err.Error()})
 		return
-	}
-	defer cursor.Close(context.TODO())
-
-	for cursor.Next(context.TODO()) {
-		var p Perbaikan
-		cursor.Decode(&p)
-		perbaikan = append(perbaikan, p)
 	}
 
 	if len(perbaikan) == 0 {
@@ -363,18 +279,19 @@ func getPerbaikanByUser(c *gin.Context) {
 }
 
 func updatePerbaikan(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
 	var perbaikan Perbaikan
+	id := c.Param("id")
+	if err := db.First(&perbaikan, id).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "Perbaikan not found"})
+		return
+	}
 
 	if err := c.ShouldBind(&perbaikan); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid input format", "details": err.Error()})
 		return
 	}
 
-	perbaikan.UpdatedAt = time.Now()
-
-	_, err := db.Collection("perbaikan").UpdateOne(context.TODO(), bson.M{"_id": id}, bson.M{"$set": perbaikan})
-	if err != nil {
+	if err := db.Save(&perbaikan).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update perbaikan", "details": err.Error()})
 		return
 	}
@@ -383,10 +300,8 @@ func updatePerbaikan(c *gin.Context) {
 }
 
 func deletePerbaikan(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
-
-	_, err := db.Collection("perbaikan").DeleteOne(context.TODO(), bson.M{"_id": id})
-	if err != nil {
+	id := c.Param("id")
+	if err := db.Delete(&Perbaikan{}, id).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to delete perbaikan", "details": err.Error()})
 		return
 	}
@@ -394,6 +309,7 @@ func deletePerbaikan(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "Perbaikan deleted successfully"})
 }
 
+// CRUD for TrainingData
 func createTrainingData(c *gin.Context) {
 	var trainingData TrainingData
 	if err := c.ShouldBind(&trainingData); err != nil {
@@ -406,11 +322,7 @@ func createTrainingData(c *gin.Context) {
 		return
 	}
 
-	trainingData.CreatedAt = time.Now()
-	trainingData.UpdatedAt = time.Now()
-
-	_, err := db.Collection("training_data").InsertOne(context.TODO(), trainingData)
-	if err != nil {
+	if err := db.Create(&trainingData).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create training data", "details": err.Error()})
 		return
 	}
@@ -420,35 +332,28 @@ func createTrainingData(c *gin.Context) {
 
 func getTrainingData(c *gin.Context) {
 	var trainingData []TrainingData
-	cursor, err := db.Collection("training_data").Find(context.TODO(), bson.M{})
-	if err != nil {
+	if err := db.Find(&trainingData).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve training data", "details": err.Error()})
 		return
-	}
-	defer cursor.Close(context.TODO())
-
-	for cursor.Next(context.TODO()) {
-		var t TrainingData
-		cursor.Decode(&t)
-		trainingData = append(trainingData, t)
 	}
 
 	c.JSON(http.StatusOK, trainingData)
 }
 
 func updateTrainingData(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
 	var trainingData TrainingData
+	id := c.Param("id")
+	if err := db.First(&trainingData, id).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": "Training data not found"})
+		return
+	}
 
 	if err := c.ShouldBind(&trainingData); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Invalid input format", "details": err.Error()})
 		return
 	}
 
-	trainingData.UpdatedAt = time.Now()
-
-	_, err := db.Collection("training_data").UpdateOne(context.TODO(), bson.M{"_id": id}, bson.M{"$set": trainingData})
-	if err != nil {
+	if err := db.Save(&trainingData).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update training data", "details": err.Error()})
 		return
 	}
@@ -457,10 +362,8 @@ func updateTrainingData(c *gin.Context) {
 }
 
 func deleteTrainingData(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
-
-	_, err := db.Collection("training_data").DeleteOne(context.TODO(), bson.M{"_id": id})
-	if err != nil {
+	id := c.Param("id")
+	if err := db.Delete(&TrainingData{}, id).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to delete training data", "details": err.Error()})
 		return
 	}
@@ -468,12 +371,12 @@ func deleteTrainingData(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"message": "Training data deleted successfully"})
 }
 
+// Get the current logged-in user based on the JWT token
 func getUser(c *gin.Context) {
 	userID, _ := c.Get("user_id")
-	var user User
 
-	err := db.Collection("users").FindOne(context.TODO(), bson.M{"_id": userID}).Decode(&user)
-	if err != nil {
+	var user User
+	if err := db.First(&user, userID).Error; err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "User not found"})
 		return
 	}
@@ -481,12 +384,12 @@ func getUser(c *gin.Context) {
 	c.JSON(http.StatusOK, user)
 }
 
+// Get a user by their ID
 func getUserById(c *gin.Context) {
-	id, _ := primitive.ObjectIDFromHex(c.Param("id"))
-	var user User
+	id := c.Param("id")
 
-	err := db.Collection("users").FindOne(context.TODO(), bson.M{"_id": id}).Decode(&user)
-	if err != nil {
+	var user User
+	if err := db.First(&user, id).Error; err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "User not found"})
 		return
 	}
@@ -495,7 +398,7 @@ func getUserById(c *gin.Context) {
 }
 
 func updateUser(c *gin.Context) {
-	userID, _ := primitive.ObjectIDFromHex(c.Param("id"))
+	userID := c.Param("id")
 
 	fullName := c.PostForm("full_name")
 	email := c.PostForm("email")
@@ -505,7 +408,7 @@ func updateUser(c *gin.Context) {
 	var filename *string
 
 	if file != nil {
-		savedFilename := fmt.Sprintf("uploads/%s_%s", userID.Hex(), file.Filename)
+		savedFilename := fmt.Sprintf("uploads/%s_%s", userID, file.Filename)
 		if err := c.SaveUploadedFile(file, savedFilename); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to save file", "details": err.Error()})
 			return
@@ -513,24 +416,94 @@ func updateUser(c *gin.Context) {
 		filename = &savedFilename
 	}
 
-	updates := bson.M{
+	updates := map[string]interface{}{
 		"full_name":    fullName,
 		"email":        email,
 		"phone_number": phoneNumber,
-		"updated_at":   time.Now(),
 	}
 
 	if filename != nil {
 		updates["photo_profile"] = *filename
 	}
 
-	_, err := db.Collection("users").UpdateOne(context.TODO(), bson.M{"_id": userID}, bson.M{"$set": updates})
-	if err != nil {
+	if err := db.Model(&User{}).Where("id = ?", userID).Updates(updates).Error; err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to update user", "details": err.Error()})
 		return
 	}
 
 	c.JSON(http.StatusOK, gin.H{"message": "User updated successfully"})
+}
+
+// Fungsi untuk membaca CSV dan memasukkan ke database
+func seedTrainingDataFromCSV(db *gorm.DB, filename string) {
+	file, err := os.Open(filename)
+	if err != nil {
+		log.Fatalf("Gagal membuka file CSV: %v", err)
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	records, err := reader.ReadAll()
+	if err != nil {
+		log.Fatalf("Gagal membaca file CSV: %v", err)
+	}
+
+	// Lewati header CSV (baris pertama)
+	for i, record := range records {
+		if i == 0 {
+			continue
+		}
+
+		trainingData := TrainingData{
+			Description: record[0],
+			Component:   record[1],
+		}
+
+		if err := db.Create(&trainingData).Error; err != nil {
+			log.Printf("Gagal memasukkan data ke database: %v", err)
+		}
+	}
+
+	fmt.Println("Training data dari CSV berhasil dimasukkan ke database.")
+}
+
+func seedPerbaikanDataFromCSV(db *gorm.DB, filename string) {
+	file, err := os.Open(filename)
+	if err != nil {
+		log.Fatalf("Gagal membuka file CSV: %v", err)
+	}
+	defer file.Close()
+
+	reader := csv.NewReader(file)
+	records, err := reader.ReadAll()
+	if err != nil {
+		log.Fatalf("Gagal membaca file CSV: %v", err)
+	}
+
+	// Lewati header CSV (baris pertama)
+	for i, record := range records {
+		if i == 0 {
+			continue
+		}
+
+		userID, _ := strconv.Atoi(record[0])
+		statusPredict, _ := strconv.Atoi(record[5])
+
+		perbaikan := Perbaikan{
+			UserID:         uint(userID),
+			Description:    record[1],
+			Component:      record[2],
+			Status:         record[3],
+			Result:         record[4],
+			Status_Predict: strconv.Itoa(statusPredict),
+		}
+
+		if err := db.Create(&perbaikan).Error; err != nil {
+			log.Printf("Gagal memasukkan data ke database: %v", err)
+		}
+	}
+
+	fmt.Println("Data dummy Perbaikan berhasil dimasukkan ke database.")
 }
 
 func main() {
@@ -540,7 +513,7 @@ func main() {
 
 	// Middleware CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:3000"},
+		AllowOrigins:     []string{"http://localhost:3000"}, // Ganti dengan origin frontend kamu
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		AllowCredentials: true,
@@ -567,11 +540,11 @@ func main() {
 	r.PUT("/perbaikan/:id", updatePerbaikan)
 	r.DELETE("/perbaikan/:id", deletePerbaikan)
 
-	// r.POST("/perbaikan_komponen", createPerbaikanKomponen)
+	r.POST("/perbaikan_komponen", createPerbaikanKomponen)
 
 	// User routes
-	r.GET("/user", getUser)
-	r.GET("/user/:id", getUserById)
+	r.GET("/user", getUser)         // Get the logged-in user's info
+	r.GET("/user/:id", getUserById) // Get a user by their ID
 
 	r.Run(":8080")
 }
