@@ -81,8 +81,8 @@ func initDB() {
 	db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
 
 	// Jalankan seeding data dari CSV
-	seedTrainingDataFromCSV(db, "training_data.csv")
-	seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
+	// seedTrainingDataFromCSV(db, "training_data.csv")
+	// seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
 }
 
 func generateToken(user User) (string, error) {
