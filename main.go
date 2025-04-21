@@ -81,8 +81,8 @@ func initDB() {
 	db.AutoMigrate(&User{}, &Perbaikan{}, &TrainingData{}, &PerbaikanKomponen{})
 
 	// Jalankan seeding data dari CSV
-	// seedTrainingDataFromCSV(db, "training_data.csv")
-	// seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
+	seedTrainingDataFromCSV(db, "training_data.csv")
+	seedPerbaikanDataFromCSV(db, "perbaikan_data.csv")
 }
 
 func generateToken(user User) (string, error) {
@@ -513,7 +513,7 @@ func main() {
 
 	// Middleware CORS
 	r.Use(cors.New(cors.Config{
-		AllowOrigins:     []string{"http://localhost:3000"}, // Ganti dengan origin frontend kamu
+		AllowOrigins:     []string{"http://localhost:3000"},
 		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE"},
 		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization"},
 		AllowCredentials: true,
@@ -543,8 +543,8 @@ func main() {
 	r.POST("/perbaikan_komponen", createPerbaikanKomponen)
 
 	// User routes
-	r.GET("/user", getUser)         // Get the logged-in user's info
-	r.GET("/user/:id", getUserById) // Get a user by their ID
+	r.GET("/user", getUser)
+	r.GET("/user/:id", getUserById)
 
 	r.Run(":8080")
 }
