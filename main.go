@@ -73,7 +73,7 @@ type Claims struct {
 
 func initDB() {
 	var err error
-	dsn := "root:nudgIcUzPEjPJwiBqpopSgkYSDUTsnuX@tcp(maglev.proxy.rlwy.net:14974)/railway?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:GcchhrdqnsKyauycgVpnYKpXMzYSELhn@tcp(ballast.proxy.rlwy.net:58414)/railway?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err = gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic("Failed to connect to database")
